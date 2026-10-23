@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "SmartVoyage AI",
+    "slug": "smartvoyage-ai",
+    "version": "1.0.0",
+    "scheme": "smartvoyage",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ]
+  }
+}
