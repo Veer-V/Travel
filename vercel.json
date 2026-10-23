@@ -15,7 +15,7 @@
     },
     "ml": {
       "root": "ml",
-      "runtime": "python"
+      "framework": "fastapi"
     }
   },
   "rewrites": [
