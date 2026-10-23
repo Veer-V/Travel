@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  database:
+    image: postgres:16-alpine
+    container_name: smartvoyage-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: smartvoyage
+      POSTGRES_PASSWORD: smartvoyage_secure_password
+      POSTGRES_DB: smartvoyage
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U smartvoyage"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: smartvoyage-backend
+    restart: always
+    environment:
+      - ENVIRONMENT=production
+      - DEBUG=False
+      - DATABASE_URL=postgresql://smartvoyage:smartvoyage_secure_password@database:5432/smartvoyage
+      - SECRET_KEY=smartvoyage-super-secret-key-production-minimum-32-chars
+    ports:
+      - "8000:8000"
+    depends_on:
+      database:
+        condition: service_healthy
+    volumes:
+      - ./datasets:/app/datasets
+      - ./ml/models:/app/ml/models
+
+volumes:
+  postgres_data:

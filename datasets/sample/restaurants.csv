@@ -1,0 +1,169 @@
+restaurant_id,destination_id,name,cuisine,latitude,longitude,price_level,dietary_options,rating,opening_hours,source,last_updated
+1,1,Delhi Heritage Bhojanalaya,Old Delhi Street Food & Royal Mughlai,28.6169,77.207,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+2,1,Delhi Spice Garden Restaurant,Old Delhi Street Food & Royal Mughlai & Multi-Cuisine,28.6099,77.214,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+3,1,The Royal Haveli at Delhi,Fine Traditional Cuisine & Continental,28.6219,77.211,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+4,2,Agra Heritage Bhojanalaya,Awadhi & North Indian Mughlai,27.1797,78.0061,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+5,2,Agra Spice Garden Restaurant,Awadhi & North Indian Mughlai & Multi-Cuisine,27.1727,78.0131,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+6,2,The Royal Haveli at Agra,Fine Traditional Cuisine & Continental,27.1847,78.0101,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+7,3,Jaipur Heritage Bhojanalaya,"Rajasthani (Dal Baati Churma, Ker Sangri)",26.9154,75.7853,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+8,3,Jaipur Spice Garden Restaurant,"Rajasthani (Dal Baati Churma, Ker Sangri) & Multi-Cuisine",26.9084,75.7923,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+9,3,The Royal Haveli at Jaipur,Fine Traditional Cuisine & Continental,26.9204,75.7893,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+10,4,Udaipur Heritage Bhojanalaya,"Rajasthani (Dal Baati Churma, Ker Sangri)",24.5884,73.7105,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+11,4,Udaipur Spice Garden Restaurant,"Rajasthani (Dal Baati Churma, Ker Sangri) & Multi-Cuisine",24.5814,73.7175,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+12,4,The Royal Haveli at Udaipur,Fine Traditional Cuisine & Continental,24.5934,73.7145,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+13,5,Jodhpur Heritage Bhojanalaya,"Rajasthani (Dal Baati Churma, Ker Sangri)",26.2419,73.0223,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+14,5,Jodhpur Spice Garden Restaurant,"Rajasthani (Dal Baati Churma, Ker Sangri) & Multi-Cuisine",26.2349,73.0293,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+15,5,The Royal Haveli at Jodhpur,Fine Traditional Cuisine & Continental,26.2469,73.0263,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+16,6,Varanasi Heritage Bhojanalaya,Awadhi & North Indian Mughlai,25.3206,82.9719,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+17,6,Varanasi Spice Garden Restaurant,Awadhi & North Indian Mughlai & Multi-Cuisine,25.3136,82.9789,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+18,6,The Royal Haveli at Varanasi,Fine Traditional Cuisine & Continental,25.3256,82.9759,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+19,7,Amritsar Heritage Bhojanalaya,"Punjabi (Sarson Ka Saag, Amritsari Kulcha)",31.637,74.8703,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+20,7,Amritsar Spice Garden Restaurant,"Punjabi (Sarson Ka Saag, Amritsari Kulcha) & Multi-Cuisine",31.63,74.8773,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+21,7,The Royal Haveli at Amritsar,Fine Traditional Cuisine & Continental,31.642,74.8743,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+22,8,Rishikesh Heritage Bhojanalaya,Garhwali & Kumaoni Organic Fare,30.0899,78.2656,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+23,8,Rishikesh Spice Garden Restaurant,Garhwali & Kumaoni Organic Fare & Multi-Cuisine,30.0829,78.2726,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+24,8,The Royal Haveli at Rishikesh,Fine Traditional Cuisine & Continental,30.0949,78.2696,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+25,9,Shimla Heritage Bhojanalaya,Himachali Dham & Siddu,31.1078,77.1714,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+26,9,Shimla Spice Garden Restaurant,Himachali Dham & Siddu & Multi-Cuisine,31.1008,77.1784,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+27,9,The Royal Haveli at Shimla,Fine Traditional Cuisine & Continental,31.1128,77.1754,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+28,10,Manali Heritage Bhojanalaya,Himachali Dham & Siddu,32.2426,77.1867,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+29,10,Manali Spice Garden Restaurant,Himachali Dham & Siddu & Multi-Cuisine,32.2356,77.1937,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+30,10,The Royal Haveli at Manali,Fine Traditional Cuisine & Continental,32.2476,77.1907,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+31,11,Leh-Ladakh Heritage Bhojanalaya,"Ladakhi & Tibetan (Thukpa, Momos)",34.1556,77.5751,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+32,11,Leh-Ladakh Spice Garden Restaurant,"Ladakhi & Tibetan (Thukpa, Momos) & Multi-Cuisine",34.1486,77.5821,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+33,11,The Royal Haveli at Leh-Ladakh,Fine Traditional Cuisine & Continental,34.1606,77.5791,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+34,12,Srinagar Heritage Bhojanalaya,Kashmiri Wazwan & Rogan Josh,34.0867,74.7953,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+35,12,Srinagar Spice Garden Restaurant,Kashmiri Wazwan & Rogan Josh & Multi-Cuisine,34.0797,74.8023,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+36,12,The Royal Haveli at Srinagar,Fine Traditional Cuisine & Continental,34.0917,74.7993,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+37,13,Haridwar Heritage Bhojanalaya,Garhwali & Kumaoni Organic Fare,29.9487,78.1622,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+38,13,Haridwar Spice Garden Restaurant,Garhwali & Kumaoni Organic Fare & Multi-Cuisine,29.9417,78.1692,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+39,13,The Royal Haveli at Haridwar,Fine Traditional Cuisine & Continental,29.9537,78.1662,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+40,14,Dharamshala Heritage Bhojanalaya,Himachali Dham & Siddu,32.222,76.3214,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+41,14,Dharamshala Spice Garden Restaurant,Himachali Dham & Siddu & Multi-Cuisine,32.215,76.3284,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+42,14,The Royal Haveli at Dharamshala,Fine Traditional Cuisine & Continental,32.227,76.3254,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+43,15,Nainital Heritage Bhojanalaya,Garhwali & Kumaoni Organic Fare,29.3949,79.4522,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+44,15,Nainital Spice Garden Restaurant,Garhwali & Kumaoni Organic Fare & Multi-Cuisine,29.3879,79.4592,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+45,15,The Royal Haveli at Nainital,Fine Traditional Cuisine & Continental,29.3999,79.4562,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+46,16,Mussoorie Heritage Bhojanalaya,Garhwali & Kumaoni Organic Fare,30.4628,78.0624,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+47,16,Mussoorie Spice Garden Restaurant,Garhwali & Kumaoni Organic Fare & Multi-Cuisine,30.4558,78.0694,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+48,16,The Royal Haveli at Mussoorie,Fine Traditional Cuisine & Continental,30.4678,78.0664,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+49,17,Mumbai Heritage Bhojanalaya,"Maharashtrian (Misal, Vada Pav, Puran Poli)",18.925,72.8327,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+50,17,Mumbai Spice Garden Restaurant,"Maharashtrian (Misal, Vada Pav, Puran Poli) & Multi-Cuisine",18.918,72.8397,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+51,17,The Royal Haveli at Mumbai,Fine Traditional Cuisine & Continental,18.93,72.8367,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+52,18,Goa Heritage Bhojanalaya,"Goan Seafood (Fish Curry Rice, Bebinca)",15.3023,74.122,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+53,18,Goa Spice Garden Restaurant,"Goan Seafood (Fish Curry Rice, Bebinca) & Multi-Cuisine",15.2953,74.129,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+54,18,The Royal Haveli at Goa,Fine Traditional Cuisine & Continental,15.3073,74.126,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+55,19,Pune Heritage Bhojanalaya,"Maharashtrian (Misal, Vada Pav, Puran Poli)",18.5234,73.8547,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+56,19,Pune Spice Garden Restaurant,"Maharashtrian (Misal, Vada Pav, Puran Poli) & Multi-Cuisine",18.5164,73.8617,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+57,19,The Royal Haveli at Pune,Fine Traditional Cuisine & Continental,18.5284,73.8587,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+58,20,Ahmedabad Heritage Bhojanalaya,Gujarati Thali & Kathiyawadi,23.0255,72.5694,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+59,20,Ahmedabad Spice Garden Restaurant,Gujarati Thali & Kathiyawadi & Multi-Cuisine,23.0185,72.5764,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+60,20,The Royal Haveli at Ahmedabad,Fine Traditional Cuisine & Continental,23.0305,72.5734,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+61,21,Kutch Heritage Bhojanalaya,Gujarati Thali & Kathiyawadi,23.7367,69.8577,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+62,21,Kutch Spice Garden Restaurant,Gujarati Thali & Kathiyawadi & Multi-Cuisine,23.7297,69.8647,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+63,21,The Royal Haveli at Kutch,Fine Traditional Cuisine & Continental,23.7417,69.8617,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+64,22,Mount Abu Heritage Bhojanalaya,"Rajasthani (Dal Baati Churma, Ker Sangri)",24.5955,72.7136,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+65,22,Mount Abu Spice Garden Restaurant,"Rajasthani (Dal Baati Churma, Ker Sangri) & Multi-Cuisine",24.5885,72.7206,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+66,22,The Royal Haveli at Mount Abu,Fine Traditional Cuisine & Continental,24.6005,72.7176,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+67,23,Mahabaleshwar Heritage Bhojanalaya,"Maharashtrian (Misal, Vada Pav, Puran Poli)",17.9337,73.6457,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+68,23,Mahabaleshwar Spice Garden Restaurant,"Maharashtrian (Misal, Vada Pav, Puran Poli) & Multi-Cuisine",17.9267,73.6527,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+69,23,The Royal Haveli at Mahabaleshwar,Fine Traditional Cuisine & Continental,17.9387,73.6497,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+70,24,Lonavala Heritage Bhojanalaya,"Maharashtrian (Misal, Vada Pav, Puran Poli)",18.7587,73.4071,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+71,24,Lonavala Spice Garden Restaurant,"Maharashtrian (Misal, Vada Pav, Puran Poli) & Multi-Cuisine",18.7517,73.4141,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+72,24,The Royal Haveli at Lonavala,Fine Traditional Cuisine & Continental,18.7637,73.4111,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+73,25,Aurangabad Heritage Bhojanalaya,"Maharashtrian (Misal, Vada Pav, Puran Poli)",19.8792,75.3413,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+74,25,Aurangabad Spice Garden Restaurant,"Maharashtrian (Misal, Vada Pav, Puran Poli) & Multi-Cuisine",19.8722,75.3483,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+75,25,The Royal Haveli at Aurangabad,Fine Traditional Cuisine & Continental,19.8842,75.3453,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+76,26,Alibaug Heritage Bhojanalaya,"Maharashtrian (Misal, Vada Pav, Puran Poli)",18.6444,72.8702,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+77,26,Alibaug Spice Garden Restaurant,"Maharashtrian (Misal, Vada Pav, Puran Poli) & Multi-Cuisine",18.6374,72.8772,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+78,26,The Royal Haveli at Alibaug,Fine Traditional Cuisine & Continental,18.6494,72.8742,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+79,27,Bengaluru Heritage Bhojanalaya,"Udupi & South Indian (Dosa, Bisi Bele Bath)",12.9746,77.5926,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+80,27,Bengaluru Spice Garden Restaurant,"Udupi & South Indian (Dosa, Bisi Bele Bath) & Multi-Cuisine",12.9676,77.5996,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+81,27,The Royal Haveli at Bengaluru,Fine Traditional Cuisine & Continental,12.9796,77.5966,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+82,28,Chennai Heritage Bhojanalaya,Chettinad & Tamil Traditional Banana Leaf,13.0857,80.2687,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+83,28,Chennai Spice Garden Restaurant,Chettinad & Tamil Traditional Banana Leaf & Multi-Cuisine,13.0787,80.2757,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+84,28,The Royal Haveli at Chennai,Fine Traditional Cuisine & Continental,13.0907,80.2727,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+85,29,Hyderabad Heritage Bhojanalaya,Hyderabadi Dum Biryani & Haleem,17.388,78.4847,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+86,29,Hyderabad Spice Garden Restaurant,Hyderabadi Dum Biryani & Haleem & Multi-Cuisine,17.381,78.4917,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+87,29,The Royal Haveli at Hyderabad,Fine Traditional Cuisine & Continental,17.393,78.4887,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+88,30,Kochi Heritage Bhojanalaya,Kerala Traditional Sadya & Malabar Parotta,9.9342,76.2653,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+89,30,Kochi Spice Garden Restaurant,Kerala Traditional Sadya & Malabar Parotta & Multi-Cuisine,9.9272,76.2723,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+90,30,The Royal Haveli at Kochi,Fine Traditional Cuisine & Continental,9.9392,76.2693,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+91,31,Munnar Heritage Bhojanalaya,Kerala Traditional Sadya & Malabar Parotta,10.0919,77.0575,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+92,31,Munnar Spice Garden Restaurant,Kerala Traditional Sadya & Malabar Parotta & Multi-Cuisine,10.0849,77.0645,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+93,31,The Royal Haveli at Munnar,Fine Traditional Cuisine & Continental,10.0969,77.0615,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+94,32,Alleppey Heritage Bhojanalaya,Kerala Traditional Sadya & Malabar Parotta,9.5011,76.3368,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+95,32,Alleppey Spice Garden Restaurant,Kerala Traditional Sadya & Malabar Parotta & Multi-Cuisine,9.4941,76.3438,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+96,32,The Royal Haveli at Alleppey,Fine Traditional Cuisine & Continental,9.5061,76.3408,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+97,33,Mysore Heritage Bhojanalaya,"Udupi & South Indian (Dosa, Bisi Bele Bath)",12.2988,76.6374,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+98,33,Mysore Spice Garden Restaurant,"Udupi & South Indian (Dosa, Bisi Bele Bath) & Multi-Cuisine",12.2918,76.6444,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+99,33,The Royal Haveli at Mysore,Fine Traditional Cuisine & Continental,12.3038,76.6414,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+100,34,Hampi Heritage Bhojanalaya,"Udupi & South Indian (Dosa, Bisi Bele Bath)",15.338,76.458,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+101,34,Hampi Spice Garden Restaurant,"Udupi & South Indian (Dosa, Bisi Bele Bath) & Multi-Cuisine",15.331,76.465,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+102,34,The Royal Haveli at Hampi,Fine Traditional Cuisine & Continental,15.343,76.462,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+103,35,Ooty Heritage Bhojanalaya,Chettinad & Tamil Traditional Banana Leaf,11.4132,76.693,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+104,35,Ooty Spice Garden Restaurant,Chettinad & Tamil Traditional Banana Leaf & Multi-Cuisine,11.4062,76.7,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+105,35,The Royal Haveli at Ooty,Fine Traditional Cuisine & Continental,11.4182,76.697,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+106,36,Madurai Heritage Bhojanalaya,Chettinad & Tamil Traditional Banana Leaf,9.9282,78.1178,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+107,36,Madurai Spice Garden Restaurant,Chettinad & Tamil Traditional Banana Leaf & Multi-Cuisine,9.9212,78.1248,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+108,36,The Royal Haveli at Madurai,Fine Traditional Cuisine & Continental,9.9332,78.1218,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+109,37,Pondicherry Heritage Bhojanalaya,Franco-Tamil Fusion & Continental Cafes,11.9446,79.8063,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+110,37,Pondicherry Spice Garden Restaurant,Franco-Tamil Fusion & Continental Cafes & Multi-Cuisine,11.9376,79.8133,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+111,37,The Royal Haveli at Pondicherry,Fine Traditional Cuisine & Continental,11.9496,79.8103,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+112,38,Coorg Heritage Bhojanalaya,"Udupi & South Indian (Dosa, Bisi Bele Bath)",12.3405,75.8049,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+113,38,Coorg Spice Garden Restaurant,"Udupi & South Indian (Dosa, Bisi Bele Bath) & Multi-Cuisine",12.3335,75.8119,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+114,38,The Royal Haveli at Coorg,Fine Traditional Cuisine & Continental,12.3455,75.8089,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+115,39,Wayanad Heritage Bhojanalaya,Kerala Traditional Sadya & Malabar Parotta,11.6884,76.13,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+116,39,Wayanad Spice Garden Restaurant,Kerala Traditional Sadya & Malabar Parotta & Multi-Cuisine,11.6814,76.137,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+117,39,The Royal Haveli at Wayanad,Fine Traditional Cuisine & Continental,11.6934,76.134,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+118,40,Gokarna Heritage Bhojanalaya,"Udupi & South Indian (Dosa, Bisi Bele Bath)",14.5509,74.3168,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+119,40,Gokarna Spice Garden Restaurant,"Udupi & South Indian (Dosa, Bisi Bele Bath) & Multi-Cuisine",14.5439,74.3238,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+120,40,The Royal Haveli at Gokarna,Fine Traditional Cuisine & Continental,14.5559,74.3208,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+121,41,Kanyakumari Heritage Bhojanalaya,Chettinad & Tamil Traditional Banana Leaf,8.0913,77.5365,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+122,41,Kanyakumari Spice Garden Restaurant,Chettinad & Tamil Traditional Banana Leaf & Multi-Cuisine,8.0843,77.5435,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+123,41,The Royal Haveli at Kanyakumari,Fine Traditional Cuisine & Continental,8.0963,77.5405,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+124,42,Rameshwaram Heritage Bhojanalaya,Chettinad & Tamil Traditional Banana Leaf,9.2906,79.3109,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+125,42,Rameshwaram Spice Garden Restaurant,Chettinad & Tamil Traditional Banana Leaf & Multi-Cuisine,9.2836,79.3179,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+126,42,The Royal Haveli at Rameshwaram,Fine Traditional Cuisine & Continental,9.2956,79.3149,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+127,43,Kolkata Heritage Bhojanalaya,"Bengali Coastal & Mishti (Macher Jhol, Rosogolla)",22.5756,88.3619,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+128,43,Kolkata Spice Garden Restaurant,"Bengali Coastal & Mishti (Macher Jhol, Rosogolla) & Multi-Cuisine",22.5686,88.3689,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+129,43,The Royal Haveli at Kolkata,Fine Traditional Cuisine & Continental,22.5806,88.3659,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+130,44,Darjeeling Heritage Bhojanalaya,"Bengali Coastal & Mishti (Macher Jhol, Rosogolla)",27.044,88.2643,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+131,44,Darjeeling Spice Garden Restaurant,"Bengali Coastal & Mishti (Macher Jhol, Rosogolla) & Multi-Cuisine",27.037,88.2713,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+132,44,The Royal Haveli at Darjeeling,Fine Traditional Cuisine & Continental,27.049,88.2683,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+133,45,Puri Heritage Bhojanalaya,Odia Temple Cuisine & Seafood,19.8165,85.8292,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+134,45,Puri Spice Garden Restaurant,Odia Temple Cuisine & Seafood & Multi-Cuisine,19.8095,85.8362,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+135,45,The Royal Haveli at Puri,Fine Traditional Cuisine & Continental,19.8215,85.8332,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+136,46,Bhubaneswar Heritage Bhojanalaya,Odia Temple Cuisine & Seafood,20.2991,85.8225,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+137,46,Bhubaneswar Spice Garden Restaurant,Odia Temple Cuisine & Seafood & Multi-Cuisine,20.2921,85.8295,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+138,46,The Royal Haveli at Bhubaneswar,Fine Traditional Cuisine & Continental,20.3041,85.8265,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+139,47,Bodh Gaya Heritage Bhojanalaya,Bihari Traditional (Litti Chokha),24.6991,84.9849,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+140,47,Bodh Gaya Spice Garden Restaurant,Bihari Traditional (Litti Chokha) & Multi-Cuisine,24.6921,84.9919,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+141,47,The Royal Haveli at Bodh Gaya,Fine Traditional Cuisine & Continental,24.7041,84.9889,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+142,48,Khajuraho Heritage Bhojanalaya,Malwi & Mughlai Street Delicacies,24.8348,79.9179,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+143,48,Khajuraho Spice Garden Restaurant,Malwi & Mughlai Street Delicacies & Multi-Cuisine,24.8278,79.9249,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+144,48,The Royal Haveli at Khajuraho,Fine Traditional Cuisine & Continental,24.8398,79.9219,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+145,49,Bhopal Heritage Bhojanalaya,Malwi & Mughlai Street Delicacies,23.2629,77.4106,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+146,49,Bhopal Spice Garden Restaurant,Malwi & Mughlai Street Delicacies & Multi-Cuisine,23.2559,77.4176,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+147,49,The Royal Haveli at Bhopal,Fine Traditional Cuisine & Continental,23.2679,77.4146,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+148,50,Gwalior Heritage Bhojanalaya,Malwi & Mughlai Street Delicacies,26.2213,78.1808,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+149,50,Gwalior Spice Garden Restaurant,Malwi & Mughlai Street Delicacies & Multi-Cuisine,26.2143,78.1878,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+150,50,The Royal Haveli at Gwalior,Fine Traditional Cuisine & Continental,26.2263,78.1848,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+151,51,Pachmarhi Heritage Bhojanalaya,Malwi & Mughlai Street Delicacies,22.4704,78.4326,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+152,51,Pachmarhi Spice Garden Restaurant,Malwi & Mughlai Street Delicacies & Multi-Cuisine,22.4634,78.4396,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+153,51,The Royal Haveli at Pachmarhi,Fine Traditional Cuisine & Continental,22.4754,78.4366,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+154,52,Shillong Heritage Bhojanalaya,Khasi & Tribal Herbal Smoked Delicacies,25.5818,91.8913,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+155,52,Shillong Spice Garden Restaurant,Khasi & Tribal Herbal Smoked Delicacies & Multi-Cuisine,25.5748,91.8983,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+156,52,The Royal Haveli at Shillong,Fine Traditional Cuisine & Continental,25.5868,91.8953,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+157,53,Guwahati Heritage Bhojanalaya,"Assamese Traditional (Masor Tenga, Duck Roast)",26.1475,91.7342,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+158,53,Guwahati Spice Garden Restaurant,"Assamese Traditional (Masor Tenga, Duck Roast) & Multi-Cuisine",26.1405,91.7412,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+159,53,The Royal Haveli at Guwahati,Fine Traditional Cuisine & Continental,26.1525,91.7382,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+160,54,Kaziranga Heritage Bhojanalaya,"Assamese Traditional (Masor Tenga, Duck Roast)",26.5805,93.1691,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+161,54,Kaziranga Spice Garden Restaurant,"Assamese Traditional (Masor Tenga, Duck Roast) & Multi-Cuisine",26.5735,93.1761,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+162,54,The Royal Haveli at Kaziranga,Fine Traditional Cuisine & Continental,26.5855,93.1731,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+163,55,Gangtok Heritage Bhojanalaya,Sikkimese & Tibetan Organic Cuisine,27.3419,88.6045,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+164,55,Gangtok Spice Garden Restaurant,Sikkimese & Tibetan Organic Cuisine & Multi-Cuisine,27.3349,88.6115,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+165,55,The Royal Haveli at Gangtok,Fine Traditional Cuisine & Continental,27.3469,88.6085,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23
+166,56,Cherrapunji Heritage Bhojanalaya,Khasi & Tribal Herbal Smoked Delicacies,25.3016,91.7304,budget,Pure Vegetarian,4.5,08:00 - 22:30,Curated Local Directory,2026-10-23
+167,56,Cherrapunji Spice Garden Restaurant,Khasi & Tribal Herbal Smoked Delicacies & Multi-Cuisine,25.2946,91.7374,moderate,"Vegetarian, Non-Vegetarian",4.4,11:30 - 23:00,Curated Local Directory,2026-10-23
+168,56,The Royal Haveli at Cherrapunji,Fine Traditional Cuisine & Continental,25.3066,91.7344,fine_dining,"Vegetarian, Vegan options, Non-Vegetarian",4.7,12:00 - 23:30,Curated Local Directory,2026-10-23

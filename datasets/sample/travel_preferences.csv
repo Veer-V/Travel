@@ -1,0 +1,7 @@
+preference_id,travel_style,budget_category,preferred_activities,preferred_accommodation,transport_preference
+1,cultural,moderate,"historical, museum, cultural, temples",hotel,train
+2,adventure,budget,"trekking, water_sports, camping, nature",hostel,bus
+3,relaxation,luxury,"beach, sunset, spa, fine_dining",resort,flight
+4,family,moderate,"sightseeing, theme_park, garden, zoo",hotel,train
+5,romantic,luxury,"lake, viewpoint, candlelight, heritage",resort,flight
+6,spiritual,budget,"temples, ghats, aarti, meditation",guesthouse,train
