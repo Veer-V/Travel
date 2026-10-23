@@ -1,0 +1,736 @@
+transport_id,origin,destination,transport_mode,estimated_duration,estimated_cost,distance,source,last_updated
+1,Delhi,Agra,train,231,350.0,178.1,Indian Railways Benchmark / OSRM,2026-10-23
+2,Delhi,Agra,bus,267,400.0,178.1,State Road Transport Benchmark,2026-10-23
+3,Delhi,Jaipur,train,305,376.0,235.3,Indian Railways Benchmark / OSRM,2026-10-23
+4,Delhi,Jaipur,bus,352,471.0,235.3,State Road Transport Benchmark,2026-10-23
+5,Delhi,Udaipur,train,736,907.0,566.9,Indian Railways Benchmark / OSRM,2026-10-23
+6,Delhi,Udaipur,flight,167,2800.0,566.9,Civil Aviation Benchmark,2026-10-23
+7,Delhi,Udaipur,bus,850,1134.0,566.9,State Road Transport Benchmark,2026-10-23
+8,Delhi,Jodhpur,train,637,784.0,490.2,Indian Railways Benchmark / OSRM,2026-10-23
+9,Delhi,Jodhpur,flight,160,2800.0,490.2,Civil Aviation Benchmark,2026-10-23
+10,Delhi,Jodhpur,bus,735,980.0,490.2,State Road Transport Benchmark,2026-10-23
+11,Delhi,Varanasi,train,882,1086.0,678.6,Indian Railways Benchmark / OSRM,2026-10-23
+12,Delhi,Varanasi,flight,176,2850.0,678.6,Civil Aviation Benchmark,2026-10-23
+13,Delhi,Varanasi,bus,1017,1357.0,678.6,State Road Transport Benchmark,2026-10-23
+14,Delhi,Amritsar,train,525,647.0,404.1,Indian Railways Benchmark / OSRM,2026-10-23
+15,Delhi,Amritsar,flight,153,2800.0,404.1,Civil Aviation Benchmark,2026-10-23
+16,Delhi,Amritsar,bus,606,808.0,404.1,State Road Transport Benchmark,2026-10-23
+17,Delhi,Rishikesh,train,251,350.0,193.3,Indian Railways Benchmark / OSRM,2026-10-23
+18,Delhi,Rishikesh,bus,289,400.0,193.3,State Road Transport Benchmark,2026-10-23
+19,Delhi,Shimla,train,360,443.0,277.0,Indian Railways Benchmark / OSRM,2026-10-23
+20,Delhi,Shimla,bus,415,554.0,277.0,State Road Transport Benchmark,2026-10-23
+21,Delhi,Manali,train,524,645.0,403.2,Indian Railways Benchmark / OSRM,2026-10-23
+22,Delhi,Manali,flight,153,2800.0,403.2,Civil Aviation Benchmark,2026-10-23
+23,Delhi,Manali,bus,604,806.0,403.2,State Road Transport Benchmark,2026-10-23
+24,Delhi,Leh-Ladakh,train,801,987.0,616.9,Indian Railways Benchmark / OSRM,2026-10-23
+25,Delhi,Leh-Ladakh,flight,171,2800.0,616.9,Civil Aviation Benchmark,2026-10-23
+26,Delhi,Leh-Ladakh,bus,925,1234.0,616.9,State Road Transport Benchmark,2026-10-23
+27,Delhi,Srinagar,train,844,1040.0,649.8,Indian Railways Benchmark / OSRM,2026-10-23
+28,Delhi,Srinagar,flight,174,2800.0,649.8,Civil Aviation Benchmark,2026-10-23
+29,Delhi,Srinagar,bus,974,1300.0,649.8,State Road Transport Benchmark,2026-10-23
+30,Delhi,Haridwar,train,227,350.0,174.7,Indian Railways Benchmark / OSRM,2026-10-23
+31,Delhi,Haridwar,bus,262,400.0,174.7,State Road Transport Benchmark,2026-10-23
+32,Delhi,Dharamshala,train,532,656.0,409.8,Indian Railways Benchmark / OSRM,2026-10-23
+33,Delhi,Dharamshala,flight,154,2800.0,409.8,Civil Aviation Benchmark,2026-10-23
+34,Delhi,Dharamshala,bus,614,820.0,409.8,State Road Transport Benchmark,2026-10-23
+35,Delhi,Nainital,train,305,376.0,234.9,Indian Railways Benchmark / OSRM,2026-10-23
+36,Delhi,Nainital,bus,352,470.0,234.9,State Road Transport Benchmark,2026-10-23
+37,Delhi,Mussoorie,train,287,354.0,221.3,Indian Railways Benchmark / OSRM,2026-10-23
+38,Delhi,Mussoorie,bus,331,443.0,221.3,State Road Transport Benchmark,2026-10-23
+39,Delhi,Mumbai,train,1515,1865.0,1165.7,Indian Railways Benchmark / OSRM,2026-10-23
+40,Delhi,Mumbai,flight,217,4896.0,1165.7,Civil Aviation Benchmark,2026-10-23
+41,Delhi,Goa,train,1968,2423.0,1514.1,Indian Railways Benchmark / OSRM,2026-10-23
+42,Delhi,Goa,flight,246,6359.0,1514.1,Civil Aviation Benchmark,2026-10-23
+43,Delhi,Pune,train,1524,1877.0,1173.0,Indian Railways Benchmark / OSRM,2026-10-23
+44,Delhi,Pune,flight,217,4927.0,1173.0,Civil Aviation Benchmark,2026-10-23
+45,Delhi,Ahmedabad,train,1008,1241.0,775.7,Indian Railways Benchmark / OSRM,2026-10-23
+46,Delhi,Ahmedabad,flight,184,3258.0,775.7,Civil Aviation Benchmark,2026-10-23
+47,Delhi,Ahmedabad,bus,1163,1551.0,775.7,State Road Transport Benchmark,2026-10-23
+48,Delhi,Kutch,train,1185,1459.0,912.0,Indian Railways Benchmark / OSRM,2026-10-23
+49,Delhi,Kutch,flight,196,3830.0,912.0,Civil Aviation Benchmark,2026-10-23
+50,Delhi,Mount Abu,train,821,1011.0,632.0,Indian Railways Benchmark / OSRM,2026-10-23
+51,Delhi,Mount Abu,flight,172,2800.0,632.0,Civil Aviation Benchmark,2026-10-23
+52,Delhi,Mount Abu,bus,948,1264.0,632.0,State Road Transport Benchmark,2026-10-23
+53,Delhi,Mahabaleshwar,train,1614,1987.0,1242.1,Indian Railways Benchmark / OSRM,2026-10-23
+54,Delhi,Mahabaleshwar,flight,223,5217.0,1242.1,Civil Aviation Benchmark,2026-10-23
+55,Delhi,Lonavala,train,1510,1860.0,1162.2,Indian Railways Benchmark / OSRM,2026-10-23
+56,Delhi,Lonavala,flight,216,4881.0,1162.2,Civil Aviation Benchmark,2026-10-23
+57,Delhi,Aurangabad,train,1286,1584.0,989.8,Indian Railways Benchmark / OSRM,2026-10-23
+58,Delhi,Aurangabad,flight,202,4157.0,989.8,Civil Aviation Benchmark,2026-10-23
+59,Delhi,Alibaug,train,1551,1909.0,1193.3,Indian Railways Benchmark / OSRM,2026-10-23
+60,Delhi,Alibaug,flight,219,5012.0,1193.3,Civil Aviation Benchmark,2026-10-23
+61,Delhi,Bengaluru,train,2261,2784.0,1739.8,Indian Railways Benchmark / OSRM,2026-10-23
+62,Delhi,Bengaluru,flight,264,7307.0,1739.8,Civil Aviation Benchmark,2026-10-23
+63,Delhi,Chennai,train,2282,2809.0,1755.8,Indian Railways Benchmark / OSRM,2026-10-23
+64,Delhi,Chennai,flight,266,7374.0,1755.8,Civil Aviation Benchmark,2026-10-23
+65,Delhi,Hyderabad,train,1632,2009.0,1255.4,Indian Railways Benchmark / OSRM,2026-10-23
+66,Delhi,Hyderabad,flight,224,5273.0,1255.4,Civil Aviation Benchmark,2026-10-23
+67,Delhi,Kochi,train,2703,3328.0,2079.7,Indian Railways Benchmark / OSRM,2026-10-23
+68,Delhi,Kochi,flight,293,8735.0,2079.7,Civil Aviation Benchmark,2026-10-23
+69,Delhi,Munnar,train,2677,3296.0,2059.9,Indian Railways Benchmark / OSRM,2026-10-23
+70,Delhi,Munnar,flight,291,8652.0,2059.9,Civil Aviation Benchmark,2026-10-23
+71,Delhi,Alleppey,train,2765,3404.0,2127.5,Indian Railways Benchmark / OSRM,2026-10-23
+72,Delhi,Alleppey,flight,297,8936.0,2127.5,Civil Aviation Benchmark,2026-10-23
+73,Delhi,Mysore,train,2360,2905.0,1815.5,Indian Railways Benchmark / OSRM,2026-10-23
+74,Delhi,Mysore,flight,271,7625.0,1815.5,Civil Aviation Benchmark,2026-10-23
+75,Delhi,Hampi,train,1922,2366.0,1478.6,Indian Railways Benchmark / OSRM,2026-10-23
+76,Delhi,Hampi,flight,243,6210.0,1478.6,Civil Aviation Benchmark,2026-10-23
+77,Delhi,Ooty,train,2487,3062.0,1913.7,Indian Railways Benchmark / OSRM,2026-10-23
+78,Delhi,Ooty,flight,279,8038.0,1913.7,Civil Aviation Benchmark,2026-10-23
+79,Delhi,Madurai,train,2704,3328.0,2080.3,Indian Railways Benchmark / OSRM,2026-10-23
+80,Delhi,Madurai,flight,293,8737.0,2080.3,Civil Aviation Benchmark,2026-10-23
+81,Delhi,Pondicherry,train,2435,2997.0,1873.4,Indian Railways Benchmark / OSRM,2026-10-23
+82,Delhi,Pondicherry,flight,276,7868.0,1873.4,Civil Aviation Benchmark,2026-10-23
+83,Delhi,Coorg,train,2360,2905.0,1815.7,Indian Railways Benchmark / OSRM,2026-10-23
+84,Delhi,Coorg,flight,271,7626.0,1815.7,Civil Aviation Benchmark,2026-10-23
+85,Delhi,Wayanad,train,2451,3017.0,1885.7,Indian Railways Benchmark / OSRM,2026-10-23
+86,Delhi,Wayanad,flight,277,7920.0,1885.7,Civil Aviation Benchmark,2026-10-23
+87,Delhi,Gokarna,train,2069,2548.0,1592.2,Indian Railways Benchmark / OSRM,2026-10-23
+88,Delhi,Gokarna,flight,252,6687.0,1592.2,Civil Aviation Benchmark,2026-10-23
+89,Delhi,Kanyakumari,train,2967,3652.0,2282.6,Indian Railways Benchmark / OSRM,2026-10-23
+90,Delhi,Kanyakumari,flight,310,9587.0,2282.6,Civil Aviation Benchmark,2026-10-23
+91,Delhi,Rameshwaram,train,2808,3456.0,2160.2,Indian Railways Benchmark / OSRM,2026-10-23
+92,Delhi,Rameshwaram,flight,300,9073.0,2160.2,Civil Aviation Benchmark,2026-10-23
+93,Delhi,Kolkata,train,1694,2086.0,1303.8,Indian Railways Benchmark / OSRM,2026-10-23
+94,Delhi,Kolkata,flight,228,5476.0,1303.8,Civil Aviation Benchmark,2026-10-23
+95,Delhi,Darjeeling,train,1431,1761.0,1100.9,Indian Railways Benchmark / OSRM,2026-10-23
+96,Delhi,Darjeeling,flight,211,4624.0,1100.9,Civil Aviation Benchmark,2026-10-23
+97,Delhi,Puri,train,1704,2098.0,1311.3,Indian Railways Benchmark / OSRM,2026-10-23
+98,Delhi,Puri,flight,229,5507.0,1311.3,Civil Aviation Benchmark,2026-10-23
+99,Delhi,Bhubaneswar,train,1651,2032.0,1270.2,Indian Railways Benchmark / OSRM,2026-10-23
+100,Delhi,Bhubaneswar,flight,225,5335.0,1270.2,Civil Aviation Benchmark,2026-10-23
+101,Delhi,Bodh Gaya,train,1152,1419.0,886.9,Indian Railways Benchmark / OSRM,2026-10-23
+102,Delhi,Bodh Gaya,flight,193,3725.0,886.9,Civil Aviation Benchmark,2026-10-23
+103,Delhi,Khajuraho,train,649,799.0,499.3,Indian Railways Benchmark / OSRM,2026-10-23
+104,Delhi,Khajuraho,flight,161,2800.0,499.3,Civil Aviation Benchmark,2026-10-23
+105,Delhi,Khajuraho,bus,748,999.0,499.3,State Road Transport Benchmark,2026-10-23
+106,Delhi,Bhopal,train,774,953.0,595.7,Indian Railways Benchmark / OSRM,2026-10-23
+107,Delhi,Bhopal,flight,169,2800.0,595.7,Civil Aviation Benchmark,2026-10-23
+108,Delhi,Bhopal,bus,893,1191.0,595.7,State Road Transport Benchmark,2026-10-23
+109,Delhi,Gwalior,train,368,453.0,283.2,Indian Railways Benchmark / OSRM,2026-10-23
+110,Delhi,Gwalior,bus,424,566.0,283.2,State Road Transport Benchmark,2026-10-23
+111,Delhi,Pachmarhi,train,902,1111.0,694.4,Indian Railways Benchmark / OSRM,2026-10-23
+112,Delhi,Pachmarhi,flight,177,2916.0,694.4,Civil Aviation Benchmark,2026-10-23
+113,Delhi,Pachmarhi,bus,1041,1389.0,694.4,State Road Transport Benchmark,2026-10-23
+114,Delhi,Shillong,train,1938,2386.0,1491.2,Indian Railways Benchmark / OSRM,2026-10-23
+115,Delhi,Shillong,flight,244,6263.0,1491.2,Civil Aviation Benchmark,2026-10-23
+116,Delhi,Guwahati,train,1897,2335.0,1459.4,Indian Railways Benchmark / OSRM,2026-10-23
+117,Delhi,Guwahati,flight,241,6129.0,1459.4,Civil Aviation Benchmark,2026-10-23
+118,Delhi,Kaziranga,train,2064,2541.0,1588.0,Indian Railways Benchmark / OSRM,2026-10-23
+119,Delhi,Kaziranga,flight,252,6670.0,1588.0,Civil Aviation Benchmark,2026-10-23
+120,Delhi,Gangtok,train,1466,1804.0,1127.7,Indian Railways Benchmark / OSRM,2026-10-23
+121,Delhi,Gangtok,flight,213,4736.0,1127.7,Civil Aviation Benchmark,2026-10-23
+122,Delhi,Cherrapunji,train,1930,2376.0,1484.8,Indian Railways Benchmark / OSRM,2026-10-23
+123,Delhi,Cherrapunji,flight,243,6236.0,1484.8,Civil Aviation Benchmark,2026-10-23
+124,Mumbai,Delhi,train,1515,1865.0,1165.7,Indian Railways Benchmark / OSRM,2026-10-23
+125,Mumbai,Delhi,flight,217,4896.0,1165.7,Civil Aviation Benchmark,2026-10-23
+126,Mumbai,Agra,train,1376,1695.0,1059.2,Indian Railways Benchmark / OSRM,2026-10-23
+127,Mumbai,Agra,flight,208,4449.0,1059.2,Civil Aviation Benchmark,2026-10-23
+128,Mumbai,Jaipur,train,1219,1501.0,938.4,Indian Railways Benchmark / OSRM,2026-10-23
+129,Mumbai,Jaipur,flight,198,3941.0,938.4,Civil Aviation Benchmark,2026-10-23
+130,Mumbai,Udaipur,train,827,1018.0,636.2,Indian Railways Benchmark / OSRM,2026-10-23
+131,Mumbai,Udaipur,flight,173,2800.0,636.2,Civil Aviation Benchmark,2026-10-23
+132,Mumbai,Udaipur,bus,954,1272.0,636.2,State Road Transport Benchmark,2026-10-23
+133,Mumbai,Jodhpur,train,1057,1302.0,813.8,Indian Railways Benchmark / OSRM,2026-10-23
+134,Mumbai,Jodhpur,flight,187,3418.0,813.8,Civil Aviation Benchmark,2026-10-23
+135,Mumbai,Varanasi,train,1641,2020.0,1262.7,Indian Railways Benchmark / OSRM,2026-10-23
+136,Mumbai,Varanasi,flight,225,5303.0,1262.7,Civil Aviation Benchmark,2026-10-23
+137,Mumbai,Amritsar,train,1856,2285.0,1428.2,Indian Railways Benchmark / OSRM,2026-10-23
+138,Mumbai,Amritsar,flight,239,5998.0,1428.2,Civil Aviation Benchmark,2026-10-23
+139,Mumbai,Rishikesh,train,1764,2171.0,1357.1,Indian Railways Benchmark / OSRM,2026-10-23
+140,Mumbai,Rishikesh,flight,233,5700.0,1357.1,Civil Aviation Benchmark,2026-10-23
+141,Mumbai,Shimla,train,1849,2277.0,1423.0,Indian Railways Benchmark / OSRM,2026-10-23
+142,Mumbai,Shimla,flight,238,5977.0,1423.0,Civil Aviation Benchmark,2026-10-23
+143,Mumbai,Manali,train,2006,2469.0,1543.4,Indian Railways Benchmark / OSRM,2026-10-23
+144,Mumbai,Manali,flight,248,6482.0,1543.4,Civil Aviation Benchmark,2026-10-23
+145,Mumbai,Leh-Ladakh,train,2284,2812.0,1757.4,Indian Railways Benchmark / OSRM,2026-10-23
+146,Mumbai,Leh-Ladakh,flight,266,7381.0,1757.4,Civil Aviation Benchmark,2026-10-23
+147,Mumbai,Srinagar,train,2206,2715.0,1697.1,Indian Railways Benchmark / OSRM,2026-10-23
+148,Mumbai,Srinagar,flight,261,7128.0,1697.1,Civil Aviation Benchmark,2026-10-23
+149,Mumbai,Haridwar,train,1740,2142.0,1338.7,Indian Railways Benchmark / OSRM,2026-10-23
+150,Mumbai,Haridwar,flight,231,5623.0,1338.7,Civil Aviation Benchmark,2026-10-23
+151,Mumbai,Dharamshala,train,1974,2431.0,1519.1,Indian Railways Benchmark / OSRM,2026-10-23
+152,Mumbai,Dharamshala,flight,246,6380.0,1519.1,Civil Aviation Benchmark,2026-10-23
+153,Mumbai,Nainital,train,1746,2149.0,1343.2,Indian Railways Benchmark / OSRM,2026-10-23
+154,Mumbai,Nainital,flight,231,5641.0,1343.2,Civil Aviation Benchmark,2026-10-23
+155,Mumbai,Mussoorie,train,1802,2219.0,1386.9,Indian Railways Benchmark / OSRM,2026-10-23
+156,Mumbai,Mussoorie,flight,235,5825.0,1386.9,Civil Aviation Benchmark,2026-10-23
+157,Mumbai,Goa,train,553,681.0,425.5,Indian Railways Benchmark / OSRM,2026-10-23
+158,Mumbai,Goa,flight,155,2800.0,425.5,Civil Aviation Benchmark,2026-10-23
+159,Mumbai,Goa,bus,638,851.0,425.5,State Road Transport Benchmark,2026-10-23
+160,Mumbai,Pune,train,151,350.0,116.5,Indian Railways Benchmark / OSRM,2026-10-23
+161,Mumbai,Pune,bus,174,400.0,116.5,State Road Transport Benchmark,2026-10-23
+162,Mumbai,Ahmedabad,train,593,731.0,456.8,Indian Railways Benchmark / OSRM,2026-10-23
+163,Mumbai,Ahmedabad,flight,158,2800.0,456.8,Civil Aviation Benchmark,2026-10-23
+164,Mumbai,Ahmedabad,bus,685,914.0,456.8,State Road Transport Benchmark,2026-10-23
+165,Mumbai,Kutch,train,802,988.0,617.4,Indian Railways Benchmark / OSRM,2026-10-23
+166,Mumbai,Kutch,flight,171,2800.0,617.4,Civil Aviation Benchmark,2026-10-23
+167,Mumbai,Kutch,bus,926,1235.0,617.4,State Road Transport Benchmark,2026-10-23
+168,Mumbai,Mount Abu,train,819,1009.0,630.7,Indian Railways Benchmark / OSRM,2026-10-23
+169,Mumbai,Mount Abu,flight,172,2800.0,630.7,Civil Aviation Benchmark,2026-10-23
+170,Mumbai,Mount Abu,bus,946,1261.0,630.7,State Road Transport Benchmark,2026-10-23
+171,Mumbai,Mahabaleshwar,train,181,350.0,139.7,Indian Railways Benchmark / OSRM,2026-10-23
+172,Mumbai,Mahabaleshwar,bus,209,400.0,139.7,State Road Transport Benchmark,2026-10-23
+173,Mumbai,Lonavala,train,82,350.0,63.2,Indian Railways Benchmark / OSRM,2026-10-23
+174,Mumbai,Lonavala,bus,94,400.0,63.2,State Road Transport Benchmark,2026-10-23
+175,Mumbai,Aurangabad,train,368,454.0,283.7,Indian Railways Benchmark / OSRM,2026-10-23
+176,Mumbai,Aurangabad,bus,425,567.0,283.7,State Road Transport Benchmark,2026-10-23
+177,Mumbai,Alibaug,train,40,350.0,31.5,Indian Railways Benchmark / OSRM,2026-10-23
+178,Mumbai,Alibaug,bus,47,400.0,31.5,State Road Transport Benchmark,2026-10-23
+179,Mumbai,Bengaluru,train,1084,1335.0,834.5,Indian Railways Benchmark / OSRM,2026-10-23
+180,Mumbai,Bengaluru,flight,189,3505.0,834.5,Civil Aviation Benchmark,2026-10-23
+181,Mumbai,Chennai,train,1333,1641.0,1025.9,Indian Railways Benchmark / OSRM,2026-10-23
+182,Mumbai,Chennai,flight,205,4309.0,1025.9,Civil Aviation Benchmark,2026-10-23
+183,Mumbai,Hyderabad,train,807,994.0,621.1,Indian Railways Benchmark / OSRM,2026-10-23
+184,Mumbai,Hyderabad,flight,171,2800.0,621.1,Civil Aviation Benchmark,2026-10-23
+185,Mumbai,Hyderabad,bus,931,1242.0,621.1,State Road Transport Benchmark,2026-10-23
+186,Mumbai,Kochi,train,1385,1705.0,1065.7,Indian Railways Benchmark / OSRM,2026-10-23
+187,Mumbai,Kochi,flight,208,4476.0,1065.7,Civil Aviation Benchmark,2026-10-23
+188,Mumbai,Munnar,train,1406,1732.0,1082.2,Indian Railways Benchmark / OSRM,2026-10-23
+189,Mumbai,Munnar,flight,210,4545.0,1082.2,Civil Aviation Benchmark,2026-10-23
+190,Mumbai,Alleppey,train,1447,1782.0,1113.7,Indian Railways Benchmark / OSRM,2026-10-23
+191,Mumbai,Alleppey,flight,212,4678.0,1113.7,Civil Aviation Benchmark,2026-10-23
+192,Mumbai,Mysore,train,1094,1347.0,841.8,Indian Railways Benchmark / OSRM,2026-10-23
+193,Mumbai,Mysore,flight,190,3536.0,841.8,Civil Aviation Benchmark,2026-10-23
+194,Mumbai,Hampi,train,720,887.0,554.5,Indian Railways Benchmark / OSRM,2026-10-23
+195,Mumbai,Hampi,flight,166,2800.0,554.5,Civil Aviation Benchmark,2026-10-23
+196,Mumbai,Hampi,bus,831,1109.0,554.5,State Road Transport Benchmark,2026-10-23
+197,Mumbai,Ooty,train,1211,1492.0,932.2,Indian Railways Benchmark / OSRM,2026-10-23
+198,Mumbai,Ooty,flight,197,3915.0,932.2,Civil Aviation Benchmark,2026-10-23
+199,Mumbai,Madurai,train,1495,1841.0,1150.6,Indian Railways Benchmark / OSRM,2026-10-23
+200,Mumbai,Madurai,flight,215,4833.0,1150.6,Civil Aviation Benchmark,2026-10-23
+201,Mumbai,Pondicherry,train,1400,1724.0,1077.2,Indian Railways Benchmark / OSRM,2026-10-23
+202,Mumbai,Pondicherry,flight,209,4524.0,1077.2,Civil Aviation Benchmark,2026-10-23
+203,Mumbai,Coorg,train,1037,1277.0,798.3,Indian Railways Benchmark / OSRM,2026-10-23
+204,Mumbai,Coorg,flight,186,3353.0,798.3,Civil Aviation Benchmark,2026-10-23
+205,Mumbai,Coorg,bus,1197,1597.0,798.3,State Road Transport Benchmark,2026-10-23
+206,Mumbai,Wayanad,train,1142,1406.0,878.8,Indian Railways Benchmark / OSRM,2026-10-23
+207,Mumbai,Wayanad,flight,193,3691.0,878.8,Civil Aviation Benchmark,2026-10-23
+208,Mumbai,Gokarna,train,664,818.0,511.4,Indian Railways Benchmark / OSRM,2026-10-23
+209,Mumbai,Gokarna,flight,162,2800.0,511.4,Civil Aviation Benchmark,2026-10-23
+210,Mumbai,Gokarna,bus,767,1023.0,511.4,State Road Transport Benchmark,2026-10-23
+211,Mumbai,Kanyakumari,train,1699,2092.0,1307.3,Indian Railways Benchmark / OSRM,2026-10-23
+212,Mumbai,Kanyakumari,flight,228,5491.0,1307.3,Civil Aviation Benchmark,2026-10-23
+213,Mumbai,Rameshwaram,train,1661,2045.0,1278.4,Indian Railways Benchmark / OSRM,2026-10-23
+214,Mumbai,Rameshwaram,flight,226,5369.0,1278.4,Civil Aviation Benchmark,2026-10-23
+215,Mumbai,Kolkata,train,2163,2662.0,1664.0,Indian Railways Benchmark / OSRM,2026-10-23
+216,Mumbai,Kolkata,flight,258,6989.0,1664.0,Civil Aviation Benchmark,2026-10-23
+217,Mumbai,Darjeeling,train,2362,2907.0,1817.1,Indian Railways Benchmark / OSRM,2026-10-23
+218,Mumbai,Darjeeling,flight,271,7632.0,1817.1,Civil Aviation Benchmark,2026-10-23
+219,Mumbai,Puri,train,1776,2187.0,1366.6,Indian Railways Benchmark / OSRM,2026-10-23
+220,Mumbai,Puri,flight,233,5740.0,1366.6,Civil Aviation Benchmark,2026-10-23
+221,Mumbai,Bhubaneswar,train,1779,2190.0,1368.8,Indian Railways Benchmark / OSRM,2026-10-23
+222,Mumbai,Bhubaneswar,flight,234,5749.0,1368.8,Civil Aviation Benchmark,2026-10-23
+223,Mumbai,Bodh Gaya,train,1830,2253.0,1408.3,Indian Railways Benchmark / OSRM,2026-10-23
+224,Mumbai,Bodh Gaya,flight,237,5915.0,1408.3,Civil Aviation Benchmark,2026-10-23
+225,Mumbai,Khajuraho,train,1277,1572.0,982.6,Indian Railways Benchmark / OSRM,2026-10-23
+226,Mumbai,Khajuraho,flight,201,4127.0,982.6,Civil Aviation Benchmark,2026-10-23
+227,Mumbai,Bhopal,train,879,1083.0,676.8,Indian Railways Benchmark / OSRM,2026-10-23
+228,Mumbai,Bhopal,flight,176,2843.0,676.8,Civil Aviation Benchmark,2026-10-23
+229,Mumbai,Bhopal,bus,1015,1354.0,676.8,State Road Transport Benchmark,2026-10-23
+230,Mumbai,Gwalior,train,1273,1567.0,979.3,Indian Railways Benchmark / OSRM,2026-10-23
+231,Mumbai,Gwalior,flight,201,4113.0,979.3,Civil Aviation Benchmark,2026-10-23
+232,Mumbai,Pachmarhi,train,914,1125.0,703.2,Indian Railways Benchmark / OSRM,2026-10-23
+233,Mumbai,Pachmarhi,flight,178,2953.0,703.2,Civil Aviation Benchmark,2026-10-23
+234,Mumbai,Pachmarhi,bus,1054,1406.0,703.2,State Road Transport Benchmark,2026-10-23
+235,Mumbai,Shillong,train,2721,3350.0,2093.7,Indian Railways Benchmark / OSRM,2026-10-23
+236,Mumbai,Shillong,flight,294,8794.0,2093.7,Civil Aviation Benchmark,2026-10-23
+237,Mumbai,Guwahati,train,2727,3356.0,2097.8,Indian Railways Benchmark / OSRM,2026-10-23
+238,Mumbai,Guwahati,flight,294,8811.0,2097.8,Civil Aviation Benchmark,2026-10-23
+239,Mumbai,Kaziranga,train,2923,3598.0,2248.7,Indian Railways Benchmark / OSRM,2026-10-23
+240,Mumbai,Kaziranga,flight,307,9445.0,2248.7,Civil Aviation Benchmark,2026-10-23
+241,Mumbai,Gangtok,train,2420,2979.0,1862.0,Indian Railways Benchmark / OSRM,2026-10-23
+242,Mumbai,Gangtok,flight,275,7820.0,1862.0,Civil Aviation Benchmark,2026-10-23
+243,Mumbai,Cherrapunji,train,2690,3311.0,2069.3,Indian Railways Benchmark / OSRM,2026-10-23
+244,Mumbai,Cherrapunji,flight,292,8691.0,2069.3,Civil Aviation Benchmark,2026-10-23
+245,Bengaluru,Delhi,train,2261,2784.0,1739.8,Indian Railways Benchmark / OSRM,2026-10-23
+246,Bengaluru,Delhi,flight,264,7307.0,1739.8,Civil Aviation Benchmark,2026-10-23
+247,Bengaluru,Agra,train,2054,2528.0,1580.1,Indian Railways Benchmark / OSRM,2026-10-23
+248,Bengaluru,Agra,flight,251,6636.0,1580.1,Civil Aviation Benchmark,2026-10-23
+249,Bengaluru,Jaipur,train,2029,2498.0,1561.5,Indian Railways Benchmark / OSRM,2026-10-23
+250,Bengaluru,Jaipur,flight,250,6558.0,1561.5,Civil Aviation Benchmark,2026-10-23
+251,Bengaluru,Udaipur,train,1760,2167.0,1354.2,Indian Railways Benchmark / OSRM,2026-10-23
+252,Bengaluru,Udaipur,flight,232,5688.0,1354.2,Civil Aviation Benchmark,2026-10-23
+253,Bengaluru,Jodhpur,train,2015,2481.0,1550.5,Indian Railways Benchmark / OSRM,2026-10-23
+254,Bengaluru,Jodhpur,flight,249,6512.0,1550.5,Civil Aviation Benchmark,2026-10-23
+255,Bengaluru,Varanasi,train,1929,2374.0,1484.0,Indian Railways Benchmark / OSRM,2026-10-23
+256,Bengaluru,Varanasi,flight,243,6233.0,1484.0,Civil Aviation Benchmark,2026-10-23
+257,Bengaluru,Amritsar,train,2721,3350.0,2093.7,Indian Railways Benchmark / OSRM,2026-10-23
+258,Bengaluru,Amritsar,flight,294,8794.0,2093.7,Civil Aviation Benchmark,2026-10-23
+259,Bengaluru,Rishikesh,train,2475,3047.0,1904.4,Indian Railways Benchmark / OSRM,2026-10-23
+260,Bengaluru,Rishikesh,flight,278,7998.0,1904.4,Civil Aviation Benchmark,2026-10-23
+261,Bengaluru,Shimla,train,2621,3227.0,2016.8,Indian Railways Benchmark / OSRM,2026-10-23
+262,Bengaluru,Shimla,flight,288,8471.0,2016.8,Civil Aviation Benchmark,2026-10-23
+263,Bengaluru,Manali,train,2785,3429.0,2142.9,Indian Railways Benchmark / OSRM,2026-10-23
+264,Bengaluru,Manali,flight,298,9000.0,2142.9,Civil Aviation Benchmark,2026-10-23
+265,Bengaluru,Leh-Ladakh,train,3061,3768.0,2355.2,Indian Railways Benchmark / OSRM,2026-10-23
+266,Bengaluru,Leh-Ladakh,flight,316,9892.0,2355.2,Civil Aviation Benchmark,2026-10-23
+267,Bengaluru,Srinagar,train,3073,3783.0,2364.5,Indian Railways Benchmark / OSRM,2026-10-23
+268,Bengaluru,Srinagar,flight,317,9931.0,2364.5,Civil Aviation Benchmark,2026-10-23
+269,Bengaluru,Haridwar,train,2454,3021.0,1888.3,Indian Railways Benchmark / OSRM,2026-10-23
+270,Bengaluru,Haridwar,flight,277,7931.0,1888.3,Civil Aviation Benchmark,2026-10-23
+271,Bengaluru,Dharamshala,train,2787,3431.0,2144.1,Indian Railways Benchmark / OSRM,2026-10-23
+272,Bengaluru,Dharamshala,flight,298,9005.0,2144.1,Civil Aviation Benchmark,2026-10-23
+273,Bengaluru,Nainital,train,2386,2937.0,1835.9,Indian Railways Benchmark / OSRM,2026-10-23
+274,Bengaluru,Nainital,flight,272,7711.0,1835.9,Civil Aviation Benchmark,2026-10-23
+275,Bengaluru,Mussoorie,train,2528,3112.0,1945.2,Indian Railways Benchmark / OSRM,2026-10-23
+276,Bengaluru,Mussoorie,flight,282,8170.0,1945.2,Civil Aviation Benchmark,2026-10-23
+277,Bengaluru,Mumbai,train,1084,1335.0,834.5,Indian Railways Benchmark / OSRM,2026-10-23
+278,Bengaluru,Mumbai,flight,189,3505.0,834.5,Civil Aviation Benchmark,2026-10-23
+279,Bengaluru,Goa,train,591,728.0,455.0,Indian Railways Benchmark / OSRM,2026-10-23
+280,Bengaluru,Goa,flight,157,2800.0,455.0,Civil Aviation Benchmark,2026-10-23
+281,Bengaluru,Goa,bus,682,910.0,455.0,State Road Transport Benchmark,2026-10-23
+282,Bengaluru,Pune,train,955,1176.0,735.2,Indian Railways Benchmark / OSRM,2026-10-23
+283,Bengaluru,Pune,flight,181,3088.0,735.2,Civil Aviation Benchmark,2026-10-23
+284,Bengaluru,Pune,bus,1102,1470.0,735.2,State Road Transport Benchmark,2026-10-23
+285,Bengaluru,Ahmedabad,train,1608,1979.0,1237.0,Indian Railways Benchmark / OSRM,2026-10-23
+286,Bengaluru,Ahmedabad,flight,223,5195.0,1237.0,Civil Aviation Benchmark,2026-10-23
+287,Bengaluru,Kutch,train,1882,2316.0,1447.7,Indian Railways Benchmark / OSRM,2026-10-23
+288,Bengaluru,Kutch,flight,240,6080.0,1447.7,Civil Aviation Benchmark,2026-10-23
+289,Bengaluru,Mount Abu,train,1807,2224.0,1390.1,Indian Railways Benchmark / OSRM,2026-10-23
+290,Bengaluru,Mount Abu,flight,235,5838.0,1390.1,Civil Aviation Benchmark,2026-10-23
+291,Bengaluru,Mahabaleshwar,train,903,1112.0,694.9,Indian Railways Benchmark / OSRM,2026-10-23
+292,Bengaluru,Mahabaleshwar,flight,177,2919.0,694.9,Civil Aviation Benchmark,2026-10-23
+293,Bengaluru,Mahabaleshwar,bus,1042,1390.0,694.9,State Road Transport Benchmark,2026-10-23
+294,Bengaluru,Lonavala,train,1018,1254.0,783.5,Indian Railways Benchmark / OSRM,2026-10-23
+295,Bengaluru,Lonavala,flight,185,3291.0,783.5,Civil Aviation Benchmark,2026-10-23
+296,Bengaluru,Lonavala,bus,1175,1567.0,783.5,State Road Transport Benchmark,2026-10-23
+297,Bengaluru,Aurangabad,train,1045,1287.0,804.4,Indian Railways Benchmark / OSRM,2026-10-23
+298,Bengaluru,Aurangabad,flight,187,3378.0,804.4,Civil Aviation Benchmark,2026-10-23
+299,Bengaluru,Alibaug,train,1050,1292.0,807.8,Indian Railways Benchmark / OSRM,2026-10-23
+300,Bengaluru,Alibaug,flight,187,3393.0,807.8,Civil Aviation Benchmark,2026-10-23
+301,Bengaluru,Chennai,train,377,464.0,290.2,Indian Railways Benchmark / OSRM,2026-10-23
+302,Bengaluru,Chennai,bus,435,580.0,290.2,State Road Transport Benchmark,2026-10-23
+303,Bengaluru,Hyderabad,train,650,800.0,500.0,Indian Railways Benchmark / OSRM,2026-10-23
+304,Bengaluru,Hyderabad,flight,161,2800.0,500.0,Civil Aviation Benchmark,2026-10-23
+305,Bengaluru,Hyderabad,bus,750,1000.0,500.0,State Road Transport Benchmark,2026-10-23
+306,Bengaluru,Kochi,train,478,588.0,367.7,Indian Railways Benchmark / OSRM,2026-10-23
+307,Bengaluru,Kochi,flight,150,2800.0,367.7,Civil Aviation Benchmark,2026-10-23
+308,Bengaluru,Kochi,bus,551,735.0,367.7,State Road Transport Benchmark,2026-10-23
+309,Bengaluru,Munnar,train,423,521.0,325.8,Indian Railways Benchmark / OSRM,2026-10-23
+310,Bengaluru,Munnar,bus,488,652.0,325.8,State Road Transport Benchmark,2026-10-23
+311,Bengaluru,Alleppey,train,532,656.0,409.8,Indian Railways Benchmark / OSRM,2026-10-23
+312,Bengaluru,Alleppey,flight,154,2800.0,409.8,Civil Aviation Benchmark,2026-10-23
+313,Bengaluru,Alleppey,bus,614,820.0,409.8,State Road Transport Benchmark,2026-10-23
+314,Bengaluru,Mysore,train,166,350.0,128.0,Indian Railways Benchmark / OSRM,2026-10-23
+315,Bengaluru,Mysore,bus,192,400.0,128.0,State Road Transport Benchmark,2026-10-23
+316,Bengaluru,Hampi,train,376,464.0,289.9,Indian Railways Benchmark / OSRM,2026-10-23
+317,Bengaluru,Hampi,bus,434,580.0,289.9,State Road Transport Benchmark,2026-10-23
+318,Bengaluru,Ooty,train,259,350.0,199.3,Indian Railways Benchmark / OSRM,2026-10-23
+319,Bengaluru,Ooty,bus,298,400.0,199.3,State Road Transport Benchmark,2026-10-23
+320,Bengaluru,Madurai,train,446,550.0,343.5,Indian Railways Benchmark / OSRM,2026-10-23
+321,Bengaluru,Madurai,bus,515,687.0,343.5,State Road Transport Benchmark,2026-10-23
+322,Bengaluru,Pondicherry,train,346,426.0,266.2,Indian Railways Benchmark / OSRM,2026-10-23
+323,Bengaluru,Pondicherry,bus,399,532.0,266.2,State Road Transport Benchmark,2026-10-23
+324,Bengaluru,Coorg,train,268,350.0,206.4,Indian Railways Benchmark / OSRM,2026-10-23
+325,Bengaluru,Coorg,bus,309,413.0,206.4,State Road Transport Benchmark,2026-10-23
+326,Bengaluru,Wayanad,train,277,350.0,213.8,Indian Railways Benchmark / OSRM,2026-10-23
+327,Bengaluru,Wayanad,bus,320,428.0,213.8,State Road Transport Benchmark,2026-10-23
+328,Bengaluru,Gokarna,train,513,632.0,394.8,Indian Railways Benchmark / OSRM,2026-10-23
+329,Bengaluru,Gokarna,flight,152,2800.0,394.8,Civil Aviation Benchmark,2026-10-23
+330,Bengaluru,Gokarna,bus,592,790.0,394.8,State Road Transport Benchmark,2026-10-23
+331,Bengaluru,Kanyakumari,train,705,869.0,543.0,Indian Railways Benchmark / OSRM,2026-10-23
+332,Bengaluru,Kanyakumari,flight,165,2800.0,543.0,Civil Aviation Benchmark,2026-10-23
+333,Bengaluru,Kanyakumari,bus,814,1086.0,543.0,State Road Transport Benchmark,2026-10-23
+334,Bengaluru,Rameshwaram,train,585,721.0,450.5,Indian Railways Benchmark / OSRM,2026-10-23
+335,Bengaluru,Rameshwaram,flight,157,2800.0,450.5,Civil Aviation Benchmark,2026-10-23
+336,Bengaluru,Rameshwaram,bus,675,901.0,450.5,State Road Transport Benchmark,2026-10-23
+337,Bengaluru,Kolkata,train,2028,2497.0,1560.7,Indian Railways Benchmark / OSRM,2026-10-23
+338,Bengaluru,Kolkata,flight,250,6555.0,1560.7,Civil Aviation Benchmark,2026-10-23
+339,Bengaluru,Darjeeling,train,2494,3070.0,1918.8,Indian Railways Benchmark / OSRM,2026-10-23
+340,Bengaluru,Darjeeling,flight,279,8059.0,1918.8,Civil Aviation Benchmark,2026-10-23
+341,Bengaluru,Puri,train,1510,1859.0,1161.7,Indian Railways Benchmark / OSRM,2026-10-23
+342,Bengaluru,Puri,flight,216,4879.0,1161.7,Civil Aviation Benchmark,2026-10-23
+343,Bengaluru,Bhubaneswar,train,1554,1914.0,1196.1,Indian Railways Benchmark / OSRM,2026-10-23
+344,Bengaluru,Bhubaneswar,flight,219,5024.0,1196.1,Civil Aviation Benchmark,2026-10-23
+345,Bengaluru,Bodh Gaya,train,1972,2428.0,1517.2,Indian Railways Benchmark / OSRM,2026-10-23
+346,Bengaluru,Bodh Gaya,flight,246,6372.0,1517.2,Civil Aviation Benchmark,2026-10-23
+347,Bengaluru,Khajuraho,train,1743,2146.0,1341.2,Indian Railways Benchmark / OSRM,2026-10-23
+348,Bengaluru,Khajuraho,flight,231,5633.0,1341.2,Civil Aviation Benchmark,2026-10-23
+349,Bengaluru,Bhopal,train,1487,1831.0,1144.2,Indian Railways Benchmark / OSRM,2026-10-23
+350,Bengaluru,Bhopal,flight,215,4806.0,1144.2,Civil Aviation Benchmark,2026-10-23
+351,Bengaluru,Gwalior,train,1916,2359.0,1474.2,Indian Railways Benchmark / OSRM,2026-10-23
+352,Bengaluru,Gwalior,flight,242,6192.0,1474.2,Civil Aviation Benchmark,2026-10-23
+353,Bengaluru,Pachmarhi,train,1377,1695.0,1059.6,Indian Railways Benchmark / OSRM,2026-10-23
+354,Bengaluru,Pachmarhi,flight,208,4450.0,1059.6,Civil Aviation Benchmark,2026-10-23
+355,Bengaluru,Shillong,train,2665,3280.0,2050.3,Indian Railways Benchmark / OSRM,2026-10-23
+356,Bengaluru,Shillong,flight,290,8611.0,2050.3,Civil Aviation Benchmark,2026-10-23
+357,Bengaluru,Guwahati,train,2704,3328.0,2080.0,Indian Railways Benchmark / OSRM,2026-10-23
+358,Bengaluru,Guwahati,flight,293,8736.0,2080.0,Civil Aviation Benchmark,2026-10-23
+359,Bengaluru,Kaziranga,train,2885,3551.0,2219.5,Indian Railways Benchmark / OSRM,2026-10-23
+360,Bengaluru,Kaziranga,flight,304,9322.0,2219.5,Civil Aviation Benchmark,2026-10-23
+361,Bengaluru,Gangtok,train,2555,3145.0,1965.5,Indian Railways Benchmark / OSRM,2026-10-23
+362,Bengaluru,Gangtok,flight,283,8255.0,1965.5,Civil Aviation Benchmark,2026-10-23
+363,Bengaluru,Cherrapunji,train,2623,3229.0,2017.9,Indian Railways Benchmark / OSRM,2026-10-23
+364,Bengaluru,Cherrapunji,flight,288,8475.0,2017.9,Civil Aviation Benchmark,2026-10-23
+365,Chennai,Delhi,train,2282,2809.0,1755.8,Indian Railways Benchmark / OSRM,2026-10-23
+366,Chennai,Delhi,flight,266,7374.0,1755.8,Civil Aviation Benchmark,2026-10-23
+367,Chennai,Agra,train,2060,2536.0,1584.8,Indian Railways Benchmark / OSRM,2026-10-23
+368,Chennai,Agra,flight,252,6656.0,1584.8,Civil Aviation Benchmark,2026-10-23
+369,Chennai,Jaipur,train,2089,2571.0,1607.1,Indian Railways Benchmark / OSRM,2026-10-23
+370,Chennai,Jaipur,flight,253,6750.0,1607.1,Civil Aviation Benchmark,2026-10-23
+371,Chennai,Udaipur,train,1888,2324.0,1452.6,Indian Railways Benchmark / OSRM,2026-10-23
+372,Chennai,Udaipur,flight,241,6101.0,1452.6,Civil Aviation Benchmark,2026-10-23
+373,Chennai,Jodhpur,train,2140,2635.0,1646.9,Indian Railways Benchmark / OSRM,2026-10-23
+374,Chennai,Jodhpur,flight,257,6917.0,1646.9,Civil Aviation Benchmark,2026-10-23
+375,Chennai,Varanasi,train,1806,2223.0,1389.6,Indian Railways Benchmark / OSRM,2026-10-23
+376,Chennai,Varanasi,flight,235,5836.0,1389.6,Civil Aviation Benchmark,2026-10-23
+377,Chennai,Amritsar,train,2775,3416.0,2135.2,Indian Railways Benchmark / OSRM,2026-10-23
+378,Chennai,Amritsar,flight,297,8968.0,2135.2,Civil Aviation Benchmark,2026-10-23
+379,Chennai,Rishikesh,train,2472,3043.0,1902.0,Indian Railways Benchmark / OSRM,2026-10-23
+380,Chennai,Rishikesh,flight,278,7988.0,1902.0,Civil Aviation Benchmark,2026-10-23
+381,Chennai,Shimla,train,2637,3246.0,2028.9,Indian Railways Benchmark / OSRM,2026-10-23
+382,Chennai,Shimla,flight,289,8521.0,2028.9,Civil Aviation Benchmark,2026-10-23
+383,Chennai,Manali,train,2799,3445.0,2153.2,Indian Railways Benchmark / OSRM,2026-10-23
+384,Chennai,Manali,flight,299,9043.0,2153.2,Civil Aviation Benchmark,2026-10-23
+385,Chennai,Leh-Ladakh,train,3066,3774.0,2358.6,Indian Railways Benchmark / OSRM,2026-10-23
+386,Chennai,Leh-Ladakh,flight,316,9906.0,2358.6,Civil Aviation Benchmark,2026-10-23
+387,Chennai,Srinagar,train,3119,3840.0,2399.7,Indian Railways Benchmark / OSRM,2026-10-23
+388,Chennai,Srinagar,flight,319,10079.0,2399.7,Civil Aviation Benchmark,2026-10-23
+389,Chennai,Haridwar,train,2453,3020.0,1887.6,Indian Railways Benchmark / OSRM,2026-10-23
+390,Chennai,Haridwar,flight,277,7928.0,1887.6,Civil Aviation Benchmark,2026-10-23
+391,Chennai,Dharamshala,train,2815,3465.0,2165.5,Indian Railways Benchmark / OSRM,2026-10-23
+392,Chennai,Dharamshala,flight,300,9095.0,2165.5,Civil Aviation Benchmark,2026-10-23
+393,Chennai,Nainital,train,2360,2905.0,1815.5,Indian Railways Benchmark / OSRM,2026-10-23
+394,Chennai,Nainital,flight,271,7625.0,1815.5,Civil Aviation Benchmark,2026-10-23
+395,Chennai,Mussoorie,train,2529,3113.0,1945.5,Indian Railways Benchmark / OSRM,2026-10-23
+396,Chennai,Mussoorie,flight,282,8171.0,1945.5,Civil Aviation Benchmark,2026-10-23
+397,Chennai,Mumbai,train,1333,1641.0,1025.9,Indian Railways Benchmark / OSRM,2026-10-23
+398,Chennai,Mumbai,flight,205,4309.0,1025.9,Civil Aviation Benchmark,2026-10-23
+399,Chennai,Goa,train,918,1131.0,706.9,Indian Railways Benchmark / OSRM,2026-10-23
+400,Chennai,Goa,flight,178,2969.0,706.9,Civil Aviation Benchmark,2026-10-23
+401,Chennai,Goa,bus,1060,1414.0,706.9,State Road Transport Benchmark,2026-10-23
+402,Chennai,Pune,train,1188,1463.0,914.4,Indian Railways Benchmark / OSRM,2026-10-23
+403,Chennai,Pune,flight,196,3840.0,914.4,Civil Aviation Benchmark,2026-10-23
+404,Chennai,Ahmedabad,train,1783,2195.0,1371.8,Indian Railways Benchmark / OSRM,2026-10-23
+405,Chennai,Ahmedabad,flight,234,5762.0,1371.8,Civil Aviation Benchmark,2026-10-23
+406,Chennai,Kutch,train,2097,2582.0,1613.8,Indian Railways Benchmark / OSRM,2026-10-23
+407,Chennai,Kutch,flight,254,6778.0,1613.8,Civil Aviation Benchmark,2026-10-23
+408,Chennai,Mount Abu,train,1957,2409.0,1505.7,Indian Railways Benchmark / OSRM,2026-10-23
+409,Chennai,Mount Abu,flight,245,6324.0,1505.7,Civil Aviation Benchmark,2026-10-23
+410,Chennai,Mahabaleshwar,train,1158,1425.0,890.9,Indian Railways Benchmark / OSRM,2026-10-23
+411,Chennai,Mahabaleshwar,flight,194,3742.0,890.9,Civil Aviation Benchmark,2026-10-23
+412,Chennai,Lonavala,train,1257,1548.0,967.3,Indian Railways Benchmark / OSRM,2026-10-23
+413,Chennai,Lonavala,flight,200,4063.0,967.3,Civil Aviation Benchmark,2026-10-23
+414,Chennai,Aurangabad,train,1195,1472.0,919.9,Indian Railways Benchmark / OSRM,2026-10-23
+415,Chennai,Aurangabad,flight,196,3864.0,919.9,Civil Aviation Benchmark,2026-10-23
+416,Chennai,Alibaug,train,1304,1606.0,1003.8,Indian Railways Benchmark / OSRM,2026-10-23
+417,Chennai,Alibaug,flight,203,4216.0,1003.8,Civil Aviation Benchmark,2026-10-23
+418,Chennai,Bengaluru,train,377,464.0,290.2,Indian Railways Benchmark / OSRM,2026-10-23
+419,Chennai,Bengaluru,bus,435,580.0,290.2,State Road Transport Benchmark,2026-10-23
+420,Chennai,Hyderabad,train,669,824.0,515.2,Indian Railways Benchmark / OSRM,2026-10-23
+421,Chennai,Hyderabad,flight,162,2800.0,515.2,Civil Aviation Benchmark,2026-10-23
+422,Chennai,Hyderabad,bus,772,1030.0,515.2,State Road Transport Benchmark,2026-10-23
+423,Chennai,Kochi,train,727,895.0,559.5,Indian Railways Benchmark / OSRM,2026-10-23
+424,Chennai,Kochi,flight,166,2800.0,559.5,Civil Aviation Benchmark,2026-10-23
+425,Chennai,Kochi,bus,839,1119.0,559.5,State Road Transport Benchmark,2026-10-23
+426,Chennai,Munnar,train,627,772.0,482.8,Indian Railways Benchmark / OSRM,2026-10-23
+427,Chennai,Munnar,flight,160,2800.0,482.8,Civil Aviation Benchmark,2026-10-23
+428,Chennai,Munnar,bus,724,966.0,482.8,State Road Transport Benchmark,2026-10-23
+429,Chennai,Alleppey,train,760,936.0,585.3,Indian Railways Benchmark / OSRM,2026-10-23
+430,Chennai,Alleppey,flight,168,2800.0,585.3,Civil Aviation Benchmark,2026-10-23
+431,Chennai,Alleppey,bus,877,1171.0,585.3,State Road Transport Benchmark,2026-10-23
+432,Chennai,Mysore,train,524,646.0,403.5,Indian Railways Benchmark / OSRM,2026-10-23
+433,Chennai,Mysore,flight,153,2800.0,403.5,Civil Aviation Benchmark,2026-10-23
+434,Chennai,Mysore,bus,605,807.0,403.5,State Road Transport Benchmark,2026-10-23
+435,Chennai,Hampi,train,625,770.0,481.1,Indian Railways Benchmark / OSRM,2026-10-23
+436,Chennai,Hampi,flight,160,2800.0,481.1,Civil Aviation Benchmark,2026-10-23
+437,Chennai,Hampi,bus,721,962.0,481.1,State Road Transport Benchmark,2026-10-23
+438,Chennai,Ooty,train,559,689.0,430.7,Indian Railways Benchmark / OSRM,2026-10-23
+439,Chennai,Ooty,flight,155,2800.0,430.7,Civil Aviation Benchmark,2026-10-23
+440,Chennai,Ooty,bus,646,861.0,430.7,State Road Transport Benchmark,2026-10-23
+441,Chennai,Madurai,train,548,675.0,422.1,Indian Railways Benchmark / OSRM,2026-10-23
+442,Chennai,Madurai,flight,155,2800.0,422.1,Civil Aviation Benchmark,2026-10-23
+443,Chennai,Madurai,bus,633,844.0,422.1,State Road Transport Benchmark,2026-10-23
+444,Chennai,Pondicherry,train,177,350.0,136.5,Indian Railways Benchmark / OSRM,2026-10-23
+445,Chennai,Pondicherry,bus,204,400.0,136.5,State Road Transport Benchmark,2026-10-23
+446,Chennai,Coorg,train,638,786.0,491.2,Indian Railways Benchmark / OSRM,2026-10-23
+447,Chennai,Coorg,flight,160,2800.0,491.2,Civil Aviation Benchmark,2026-10-23
+448,Chennai,Coorg,bus,736,982.0,491.2,State Road Transport Benchmark,2026-10-23
+449,Chennai,Wayanad,train,618,761.0,475.6,Indian Railways Benchmark / OSRM,2026-10-23
+450,Chennai,Wayanad,flight,159,2800.0,475.6,Civil Aviation Benchmark,2026-10-23
+451,Chennai,Wayanad,bus,713,951.0,475.6,State Road Transport Benchmark,2026-10-23
+452,Chennai,Gokarna,train,861,1061.0,663.0,Indian Railways Benchmark / OSRM,2026-10-23
+453,Chennai,Gokarna,flight,175,2800.0,663.0,Civil Aviation Benchmark,2026-10-23
+454,Chennai,Gokarna,bus,994,1326.0,663.0,State Road Transport Benchmark,2026-10-23
+455,Chennai,Kanyakumari,train,819,1009.0,630.5,Indian Railways Benchmark / OSRM,2026-10-23
+456,Chennai,Kanyakumari,flight,172,2800.0,630.5,Civil Aviation Benchmark,2026-10-23
+457,Chennai,Kanyakumari,bus,945,1261.0,630.5,State Road Transport Benchmark,2026-10-23
+458,Chennai,Rameshwaram,train,565,696.0,434.7,Indian Railways Benchmark / OSRM,2026-10-23
+459,Chennai,Rameshwaram,flight,156,2800.0,434.7,Civil Aviation Benchmark,2026-10-23
+460,Chennai,Rameshwaram,bus,652,869.0,434.7,State Road Transport Benchmark,2026-10-23
+461,Chennai,Kolkata,train,1765,2173.0,1358.4,Indian Railways Benchmark / OSRM,2026-10-23
+462,Chennai,Kolkata,flight,233,5705.0,1358.4,Civil Aviation Benchmark,2026-10-23
+463,Chennai,Darjeeling,train,2289,2818.0,1761.1,Indian Railways Benchmark / OSRM,2026-10-23
+464,Chennai,Darjeeling,flight,266,7397.0,1761.1,Civil Aviation Benchmark,2026-10-23
+465,Chennai,Puri,train,1240,1527.0,954.6,Indian Railways Benchmark / OSRM,2026-10-23
+466,Chennai,Puri,flight,199,4009.0,954.6,Civil Aviation Benchmark,2026-10-23
+467,Chennai,Bhubaneswar,train,1295,1594.0,996.3,Indian Railways Benchmark / OSRM,2026-10-23
+468,Chennai,Bhubaneswar,flight,203,4184.0,996.3,Civil Aviation Benchmark,2026-10-23
+469,Chennai,Bodh Gaya,train,1797,2213.0,1383.0,Indian Railways Benchmark / OSRM,2026-10-23
+470,Chennai,Bodh Gaya,flight,235,5809.0,1383.0,Civil Aviation Benchmark,2026-10-23
+471,Chennai,Khajuraho,train,1699,2091.0,1307.0,Indian Railways Benchmark / OSRM,2026-10-23
+472,Chennai,Khajuraho,flight,228,5489.0,1307.0,Civil Aviation Benchmark,2026-10-23
+473,Chennai,Bhopal,train,1522,1874.0,1171.1,Indian Railways Benchmark / OSRM,2026-10-23
+474,Chennai,Bhopal,flight,217,4919.0,1171.1,Civil Aviation Benchmark,2026-10-23
+475,Chennai,Gwalior,train,1919,2363.0,1476.8,Indian Railways Benchmark / OSRM,2026-10-23
+476,Chennai,Gwalior,flight,243,6203.0,1476.8,Civil Aviation Benchmark,2026-10-23
+477,Chennai,Pachmarhi,train,1379,1698.0,1061.4,Indian Railways Benchmark / OSRM,2026-10-23
+478,Chennai,Pachmarhi,flight,208,4458.0,1061.4,Civil Aviation Benchmark,2026-10-23
+479,Chennai,Shillong,train,2400,2954.0,1846.4,Indian Railways Benchmark / OSRM,2026-10-23
+480,Chennai,Shillong,flight,273,7755.0,1846.4,Civil Aviation Benchmark,2026-10-23
+481,Chennai,Guwahati,train,2446,3012.0,1882.2,Indian Railways Benchmark / OSRM,2026-10-23
+482,Chennai,Guwahati,flight,276,7905.0,1882.2,Civil Aviation Benchmark,2026-10-23
+483,Chennai,Kaziranga,train,2619,3224.0,2014.9,Indian Railways Benchmark / OSRM,2026-10-23
+484,Chennai,Kaziranga,flight,287,8463.0,2014.9,Civil Aviation Benchmark,2026-10-23
+485,Chennai,Gangtok,train,2348,2891.0,1806.6,Indian Railways Benchmark / OSRM,2026-10-23
+486,Chennai,Gangtok,flight,270,7588.0,1806.6,Civil Aviation Benchmark,2026-10-23
+487,Chennai,Cherrapunji,train,2356,2900.0,1812.7,Indian Railways Benchmark / OSRM,2026-10-23
+488,Chennai,Cherrapunji,flight,271,7613.0,1812.7,Civil Aviation Benchmark,2026-10-23
+489,Kolkata,Delhi,train,1694,2086.0,1303.8,Indian Railways Benchmark / OSRM,2026-10-23
+490,Kolkata,Delhi,flight,228,5476.0,1303.8,Civil Aviation Benchmark,2026-10-23
+491,Kolkata,Agra,train,1511,1860.0,1162.7,Indian Railways Benchmark / OSRM,2026-10-23
+492,Kolkata,Agra,flight,216,4883.0,1162.7,Civil Aviation Benchmark,2026-10-23
+493,Kolkata,Jaipur,train,1765,2172.0,1357.8,Indian Railways Benchmark / OSRM,2026-10-23
+494,Kolkata,Jaipur,flight,233,5703.0,1357.8,Civil Aviation Benchmark,2026-10-23
+495,Kolkata,Udaipur,train,1961,2415.0,1509.1,Indian Railways Benchmark / OSRM,2026-10-23
+496,Kolkata,Udaipur,flight,245,6338.0,1509.1,Civil Aviation Benchmark,2026-10-23
+497,Kolkata,Jodhpur,train,2086,2568.0,1604.7,Indian Railways Benchmark / OSRM,2026-10-23
+498,Kolkata,Jodhpur,flight,253,6740.0,1604.7,Civil Aviation Benchmark,2026-10-23
+499,Kolkata,Varanasi,train,815,1003.0,627.0,Indian Railways Benchmark / OSRM,2026-10-23
+500,Kolkata,Varanasi,flight,172,2800.0,627.0,Civil Aviation Benchmark,2026-10-23
+501,Kolkata,Varanasi,bus,940,1254.0,627.0,State Road Transport Benchmark,2026-10-23
+502,Kolkata,Amritsar,train,2171,2673.0,1670.4,Indian Railways Benchmark / OSRM,2026-10-23
+503,Kolkata,Amritsar,flight,259,7016.0,1670.4,Civil Aviation Benchmark,2026-10-23
+504,Kolkata,Rishikesh,train,1698,2091.0,1306.7,Indian Railways Benchmark / OSRM,2026-10-23
+505,Kolkata,Rishikesh,flight,228,5488.0,1306.7,Civil Aviation Benchmark,2026-10-23
+506,Kolkata,Shimla,train,1896,2334.0,1458.8,Indian Railways Benchmark / OSRM,2026-10-23
+507,Kolkata,Shimla,flight,241,6127.0,1458.8,Civil Aviation Benchmark,2026-10-23
+508,Kolkata,Manali,train,1999,2461.0,1538.3,Indian Railways Benchmark / OSRM,2026-10-23
+509,Kolkata,Manali,flight,248,6461.0,1538.3,Civil Aviation Benchmark,2026-10-23
+510,Kolkata,Leh-Ladakh,train,2161,2660.0,1662.6,Indian Railways Benchmark / OSRM,2026-10-23
+511,Kolkata,Leh-Ladakh,flight,258,6983.0,1662.6,Civil Aviation Benchmark,2026-10-23
+512,Kolkata,Srinagar,train,2393,2945.0,1840.8,Indian Railways Benchmark / OSRM,2026-10-23
+513,Kolkata,Srinagar,flight,273,7731.0,1840.8,Civil Aviation Benchmark,2026-10-23
+514,Kolkata,Haridwar,train,1696,2088.0,1305.2,Indian Railways Benchmark / OSRM,2026-10-23
+515,Kolkata,Haridwar,flight,228,5482.0,1305.2,Civil Aviation Benchmark,2026-10-23
+516,Kolkata,Dharamshala,train,2078,2558.0,1598.9,Indian Railways Benchmark / OSRM,2026-10-23
+517,Kolkata,Dharamshala,flight,253,6715.0,1598.9,Civil Aviation Benchmark,2026-10-23
+518,Kolkata,Nainital,train,1519,1870.0,1168.8,Indian Railways Benchmark / OSRM,2026-10-23
+519,Kolkata,Nainital,flight,217,4909.0,1168.8,Civil Aviation Benchmark,2026-10-23
+520,Kolkata,Mussoorie,train,1751,2156.0,1347.5,Indian Railways Benchmark / OSRM,2026-10-23
+521,Kolkata,Mussoorie,flight,232,5660.0,1347.5,Civil Aviation Benchmark,2026-10-23
+522,Kolkata,Mumbai,train,2163,2662.0,1664.0,Indian Railways Benchmark / OSRM,2026-10-23
+523,Kolkata,Mumbai,flight,258,6989.0,1664.0,Civil Aviation Benchmark,2026-10-23
+524,Kolkata,Goa,train,2210,2721.0,1700.6,Indian Railways Benchmark / OSRM,2026-10-23
+525,Kolkata,Goa,flight,261,7143.0,1700.6,Civil Aviation Benchmark,2026-10-23
+526,Kolkata,Pune,train,2048,2521.0,1575.4,Indian Railways Benchmark / OSRM,2026-10-23
+527,Kolkata,Pune,flight,251,6617.0,1575.4,Civil Aviation Benchmark,2026-10-23
+528,Kolkata,Ahmedabad,train,2104,2590.0,1618.9,Indian Railways Benchmark / OSRM,2026-10-23
+529,Kolkata,Ahmedabad,flight,254,6799.0,1618.9,Civil Aviation Benchmark,2026-10-23
+530,Kolkata,Kutch,train,2463,3032.0,1894.9,Indian Railways Benchmark / OSRM,2026-10-23
+531,Kolkata,Kutch,flight,277,7959.0,1894.9,Civil Aviation Benchmark,2026-10-23
+532,Kolkata,Mount Abu,train,2092,2575.0,1609.5,Indian Railways Benchmark / OSRM,2026-10-23
+533,Kolkata,Mount Abu,flight,254,6760.0,1609.5,Civil Aviation Benchmark,2026-10-23
+534,Kolkata,Mahabaleshwar,train,2104,2590.0,1618.6,Indian Railways Benchmark / OSRM,2026-10-23
+535,Kolkata,Mahabaleshwar,flight,254,6798.0,1618.6,Civil Aviation Benchmark,2026-10-23
+536,Kolkata,Lonavala,train,2095,2579.0,1611.8,Indian Railways Benchmark / OSRM,2026-10-23
+537,Kolkata,Lonavala,flight,254,6770.0,1611.8,Civil Aviation Benchmark,2026-10-23
+538,Kolkata,Aurangabad,train,1796,2211.0,1382.0,Indian Railways Benchmark / OSRM,2026-10-23
+539,Kolkata,Aurangabad,flight,235,5804.0,1382.0,Civil Aviation Benchmark,2026-10-23
+540,Kolkata,Alibaug,train,2170,2671.0,1669.6,Indian Railways Benchmark / OSRM,2026-10-23
+541,Kolkata,Alibaug,flight,259,7012.0,1669.6,Civil Aviation Benchmark,2026-10-23
+542,Kolkata,Bengaluru,train,2028,2497.0,1560.7,Indian Railways Benchmark / OSRM,2026-10-23
+543,Kolkata,Bengaluru,flight,250,6555.0,1560.7,Civil Aviation Benchmark,2026-10-23
+544,Kolkata,Chennai,train,1765,2173.0,1358.4,Indian Railways Benchmark / OSRM,2026-10-23
+545,Kolkata,Chennai,flight,233,5705.0,1358.4,Civil Aviation Benchmark,2026-10-23
+546,Kolkata,Hyderabad,train,1536,1891.0,1181.9,Indian Railways Benchmark / OSRM,2026-10-23
+547,Kolkata,Hyderabad,flight,218,4964.0,1181.9,Civil Aviation Benchmark,2026-10-23
+548,Kolkata,Kochi,train,2478,3050.0,1906.4,Indian Railways Benchmark / OSRM,2026-10-23
+549,Kolkata,Kochi,flight,278,8007.0,1906.4,Civil Aviation Benchmark,2026-10-23
+550,Kolkata,Munnar,train,2387,2939.0,1836.9,Indian Railways Benchmark / OSRM,2026-10-23
+551,Kolkata,Munnar,flight,273,7715.0,1836.9,Civil Aviation Benchmark,2026-10-23
+552,Kolkata,Alleppey,train,2519,3101.0,1938.0,Indian Railways Benchmark / OSRM,2026-10-23
+553,Kolkata,Alleppey,flight,281,8140.0,1938.0,Civil Aviation Benchmark,2026-10-23
+554,Kolkata,Mysore,train,2193,2700.0,1687.3,Indian Railways Benchmark / OSRM,2026-10-23
+555,Kolkata,Mysore,flight,260,7087.0,1687.3,Civil Aviation Benchmark,2026-10-23
+556,Kolkata,Hampi,train,1933,2379.0,1487.1,Indian Railways Benchmark / OSRM,2026-10-23
+557,Kolkata,Hampi,flight,243,6246.0,1487.1,Civil Aviation Benchmark,2026-10-23
+558,Kolkata,Ooty,train,2279,2805.0,1753.2,Indian Railways Benchmark / OSRM,2026-10-23
+559,Kolkata,Ooty,flight,266,7363.0,1753.2,Civil Aviation Benchmark,2026-10-23
+560,Kolkata,Madurai,train,2313,2848.0,1779.7,Indian Railways Benchmark / OSRM,2026-10-23
+561,Kolkata,Madurai,flight,268,7475.0,1779.7,Civil Aviation Benchmark,2026-10-23
+562,Kolkata,Pondicherry,train,1936,2384.0,1489.8,Indian Railways Benchmark / OSRM,2026-10-23
+563,Kolkata,Pondicherry,flight,244,6257.0,1489.8,Civil Aviation Benchmark,2026-10-23
+564,Kolkata,Coorg,train,2275,2800.0,1750.0,Indian Railways Benchmark / OSRM,2026-10-23
+565,Kolkata,Coorg,flight,265,7350.0,1750.0,Civil Aviation Benchmark,2026-10-23
+566,Kolkata,Wayanad,train,2306,2839.0,1774.2,Indian Railways Benchmark / OSRM,2026-10-23
+567,Kolkata,Wayanad,flight,267,7452.0,1774.2,Civil Aviation Benchmark,2026-10-23
+568,Kolkata,Gokarna,train,2244,2763.0,1726.9,Indian Railways Benchmark / OSRM,2026-10-23
+569,Kolkata,Gokarna,flight,263,7253.0,1726.9,Civil Aviation Benchmark,2026-10-23
+570,Kolkata,Kanyakumari,train,2578,3173.0,1983.1,Indian Railways Benchmark / OSRM,2026-10-23
+571,Kolkata,Kanyakumari,flight,285,8329.0,1983.1,Civil Aviation Benchmark,2026-10-23
+572,Kolkata,Rameshwaram,train,2293,2823.0,1764.5,Indian Railways Benchmark / OSRM,2026-10-23
+573,Kolkata,Rameshwaram,flight,267,7411.0,1764.5,Civil Aviation Benchmark,2026-10-23
+574,Kolkata,Darjeeling,train,646,795.0,497.0,Indian Railways Benchmark / OSRM,2026-10-23
+575,Kolkata,Darjeeling,flight,161,2800.0,497.0,Civil Aviation Benchmark,2026-10-23
+576,Kolkata,Darjeeling,bus,745,994.0,497.0,State Road Transport Benchmark,2026-10-23
+577,Kolkata,Puri,train,524,646.0,403.8,Indian Railways Benchmark / OSRM,2026-10-23
+578,Kolkata,Puri,flight,153,2800.0,403.8,Civil Aviation Benchmark,2026-10-23
+579,Kolkata,Puri,bus,605,808.0,403.8,State Road Transport Benchmark,2026-10-23
+580,Kolkata,Bhubaneswar,train,474,584.0,364.9,Indian Railways Benchmark / OSRM,2026-10-23
+581,Kolkata,Bhubaneswar,flight,150,2800.0,364.9,Civil Aviation Benchmark,2026-10-23
+582,Kolkata,Bhubaneswar,bus,547,730.0,364.9,State Road Transport Benchmark,2026-10-23
+583,Kolkata,Bodh Gaya,train,542,668.0,417.2,Indian Railways Benchmark / OSRM,2026-10-23
+584,Kolkata,Bodh Gaya,flight,154,2800.0,417.2,Civil Aviation Benchmark,2026-10-23
+585,Kolkata,Bodh Gaya,bus,625,834.0,417.2,State Road Transport Benchmark,2026-10-23
+586,Kolkata,Khajuraho,train,1164,1433.0,895.5,Indian Railways Benchmark / OSRM,2026-10-23
+587,Kolkata,Khajuraho,flight,194,3761.0,895.5,Civil Aviation Benchmark,2026-10-23
+588,Kolkata,Bhopal,train,1461,1798.0,1124.0,Indian Railways Benchmark / OSRM,2026-10-23
+589,Kolkata,Bhopal,flight,213,4721.0,1124.0,Civil Aviation Benchmark,2026-10-23
+590,Kolkata,Gwalior,train,1439,1772.0,1107.4,Indian Railways Benchmark / OSRM,2026-10-23
+591,Kolkata,Gwalior,flight,212,4651.0,1107.4,Civil Aviation Benchmark,2026-10-23
+592,Kolkata,Pachmarhi,train,1325,1632.0,1019.8,Indian Railways Benchmark / OSRM,2026-10-23
+593,Kolkata,Pachmarhi,flight,204,4283.0,1019.8,Civil Aviation Benchmark,2026-10-23
+594,Kolkata,Shillong,train,637,784.0,490.0,Indian Railways Benchmark / OSRM,2026-10-23
+595,Kolkata,Shillong,flight,160,2800.0,490.0,Civil Aviation Benchmark,2026-10-23
+596,Kolkata,Shillong,bus,735,980.0,490.0,State Road Transport Benchmark,2026-10-23
+597,Kolkata,Guwahati,train,680,838.0,523.8,Indian Railways Benchmark / OSRM,2026-10-23
+598,Kolkata,Guwahati,flight,163,2800.0,523.8,Civil Aviation Benchmark,2026-10-23
+599,Kolkata,Guwahati,bus,785,1048.0,523.8,State Road Transport Benchmark,2026-10-23
+600,Kolkata,Kaziranga,train,856,1055.0,659.1,Indian Railways Benchmark / OSRM,2026-10-23
+601,Kolkata,Kaziranga,flight,174,2800.0,659.1,Civil Aviation Benchmark,2026-10-23
+602,Kolkata,Kaziranga,bus,988,1318.0,659.1,State Road Transport Benchmark,2026-10-23
+603,Kolkata,Gangtok,train,689,849.0,530.6,Indian Railways Benchmark / OSRM,2026-10-23
+604,Kolkata,Gangtok,flight,164,2800.0,530.6,Civil Aviation Benchmark,2026-10-23
+605,Kolkata,Gangtok,bus,795,1061.0,530.6,State Road Transport Benchmark,2026-10-23
+606,Kolkata,Cherrapunji,train,594,732.0,457.2,Indian Railways Benchmark / OSRM,2026-10-23
+607,Kolkata,Cherrapunji,flight,158,2800.0,457.2,Civil Aviation Benchmark,2026-10-23
+608,Kolkata,Cherrapunji,bus,685,914.0,457.2,State Road Transport Benchmark,2026-10-23
+609,Hyderabad,Delhi,train,1632,2009.0,1255.4,Indian Railways Benchmark / OSRM,2026-10-23
+610,Hyderabad,Delhi,flight,224,5273.0,1255.4,Civil Aviation Benchmark,2026-10-23
+611,Hyderabad,Agra,train,1416,1744.0,1089.9,Indian Railways Benchmark / OSRM,2026-10-23
+612,Hyderabad,Agra,flight,210,4578.0,1089.9,Civil Aviation Benchmark,2026-10-23
+613,Hyderabad,Jaipur,train,1423,1752.0,1095.1,Indian Railways Benchmark / OSRM,2026-10-23
+614,Hyderabad,Jaipur,flight,211,4599.0,1095.1,Civil Aviation Benchmark,2026-10-23
+615,Hyderabad,Udaipur,train,1223,1506.0,941.4,Indian Railways Benchmark / OSRM,2026-10-23
+616,Hyderabad,Udaipur,flight,198,3954.0,941.4,Civil Aviation Benchmark,2026-10-23
+617,Hyderabad,Jodhpur,train,1474,1815.0,1134.1,Indian Railways Benchmark / OSRM,2026-10-23
+618,Hyderabad,Jodhpur,flight,214,4763.0,1134.1,Civil Aviation Benchmark,2026-10-23
+619,Hyderabad,Varanasi,train,1295,1595.0,996.7,Indian Railways Benchmark / OSRM,2026-10-23
+620,Hyderabad,Varanasi,flight,203,4186.0,996.7,Civil Aviation Benchmark,2026-10-23
+621,Hyderabad,Amritsar,train,2113,2601.0,1625.7,Indian Railways Benchmark / OSRM,2026-10-23
+622,Hyderabad,Amritsar,flight,255,6828.0,1625.7,Civil Aviation Benchmark,2026-10-23
+623,Hyderabad,Rishikesh,train,1836,2260.0,1412.6,Indian Railways Benchmark / OSRM,2026-10-23
+624,Hyderabad,Rishikesh,flight,237,5933.0,1412.6,Civil Aviation Benchmark,2026-10-23
+625,Hyderabad,Shimla,train,1990,2450.0,1531.3,Indian Railways Benchmark / OSRM,2026-10-23
+626,Hyderabad,Shimla,flight,247,6431.0,1531.3,Civil Aviation Benchmark,2026-10-23
+627,Hyderabad,Manali,train,2153,2651.0,1656.9,Indian Railways Benchmark / OSRM,2026-10-23
+628,Hyderabad,Manali,flight,258,6959.0,1656.9,Civil Aviation Benchmark,2026-10-23
+629,Hyderabad,Leh-Ladakh,train,2426,2987.0,1866.7,Indian Railways Benchmark / OSRM,2026-10-23
+630,Hyderabad,Leh-Ladakh,flight,275,7840.0,1866.7,Civil Aviation Benchmark,2026-10-23
+631,Hyderabad,Srinagar,train,2460,3028.0,1892.8,Indian Railways Benchmark / OSRM,2026-10-23
+632,Hyderabad,Srinagar,flight,277,7950.0,1892.8,Civil Aviation Benchmark,2026-10-23
+633,Hyderabad,Haridwar,train,1816,2235.0,1397.1,Indian Railways Benchmark / OSRM,2026-10-23
+634,Hyderabad,Haridwar,flight,236,5868.0,1397.1,Civil Aviation Benchmark,2026-10-23
+635,Hyderabad,Dharamshala,train,2162,2662.0,1663.7,Indian Railways Benchmark / OSRM,2026-10-23
+636,Hyderabad,Dharamshala,flight,258,6988.0,1663.7,Civil Aviation Benchmark,2026-10-23
+637,Hyderabad,Nainital,train,1740,2142.0,1338.7,Indian Railways Benchmark / OSRM,2026-10-23
+638,Hyderabad,Nainital,flight,231,5623.0,1338.7,Civil Aviation Benchmark,2026-10-23
+639,Hyderabad,Mussoorie,train,1890,2327.0,1454.5,Indian Railways Benchmark / OSRM,2026-10-23
+640,Hyderabad,Mussoorie,flight,241,6109.0,1454.5,Civil Aviation Benchmark,2026-10-23
+641,Hyderabad,Mumbai,train,807,994.0,621.1,Indian Railways Benchmark / OSRM,2026-10-23
+642,Hyderabad,Mumbai,flight,171,2800.0,621.1,Civil Aviation Benchmark,2026-10-23
+643,Hyderabad,Mumbai,bus,931,1242.0,621.1,State Road Transport Benchmark,2026-10-23
+644,Hyderabad,Goa,train,676,832.0,520.0,Indian Railways Benchmark / OSRM,2026-10-23
+645,Hyderabad,Goa,flight,163,2800.0,520.0,Civil Aviation Benchmark,2026-10-23
+646,Hyderabad,Goa,bus,780,1040.0,520.0,State Road Transport Benchmark,2026-10-23
+647,Hyderabad,Pune,train,657,809.0,505.8,Indian Railways Benchmark / OSRM,2026-10-23
+648,Hyderabad,Pune,flight,162,2800.0,505.8,Civil Aviation Benchmark,2026-10-23
+649,Hyderabad,Pune,bus,758,1012.0,505.8,State Road Transport Benchmark,2026-10-23
+650,Hyderabad,Ahmedabad,train,1143,1407.0,879.5,Indian Railways Benchmark / OSRM,2026-10-23
+651,Hyderabad,Ahmedabad,flight,193,3694.0,879.5,Civil Aviation Benchmark,2026-10-23
+652,Hyderabad,Kutch,train,1484,1827.0,1141.8,Indian Railways Benchmark / OSRM,2026-10-23
+653,Hyderabad,Kutch,flight,215,4796.0,1141.8,Civil Aviation Benchmark,2026-10-23
+654,Hyderabad,Mount Abu,train,1300,1600.0,1000.3,Indian Railways Benchmark / OSRM,2026-10-23
+655,Hyderabad,Mount Abu,flight,203,4201.0,1000.3,Civil Aviation Benchmark,2026-10-23
+656,Hyderabad,Mahabaleshwar,train,671,826.0,516.3,Indian Railways Benchmark / OSRM,2026-10-23
+657,Hyderabad,Mahabaleshwar,flight,163,2800.0,516.3,Civil Aviation Benchmark,2026-10-23
+658,Hyderabad,Mahabaleshwar,bus,774,1033.0,516.3,State Road Transport Benchmark,2026-10-23
+659,Hyderabad,Lonavala,train,725,893.0,557.9,Indian Railways Benchmark / OSRM,2026-10-23
+660,Hyderabad,Lonavala,flight,166,2800.0,557.9,Civil Aviation Benchmark,2026-10-23
+661,Hyderabad,Lonavala,bus,836,1116.0,557.9,State Road Transport Benchmark,2026-10-23
+662,Hyderabad,Aurangabad,train,561,691.0,431.8,Indian Railways Benchmark / OSRM,2026-10-23
+663,Hyderabad,Aurangabad,flight,155,2800.0,431.8,Civil Aviation Benchmark,2026-10-23
+664,Hyderabad,Aurangabad,bus,647,864.0,431.8,State Road Transport Benchmark,2026-10-23
+665,Hyderabad,Alibaug,train,792,976.0,609.9,Indian Railways Benchmark / OSRM,2026-10-23
+666,Hyderabad,Alibaug,flight,170,2800.0,609.9,Civil Aviation Benchmark,2026-10-23
+667,Hyderabad,Alibaug,bus,914,1220.0,609.9,State Road Transport Benchmark,2026-10-23
+668,Hyderabad,Bengaluru,train,650,800.0,500.0,Indian Railways Benchmark / OSRM,2026-10-23
+669,Hyderabad,Bengaluru,flight,161,2800.0,500.0,Civil Aviation Benchmark,2026-10-23
+670,Hyderabad,Bengaluru,bus,750,1000.0,500.0,State Road Transport Benchmark,2026-10-23
+671,Hyderabad,Chennai,train,669,824.0,515.2,Indian Railways Benchmark / OSRM,2026-10-23
+672,Hyderabad,Chennai,flight,162,2800.0,515.2,Civil Aviation Benchmark,2026-10-23
+673,Hyderabad,Chennai,bus,772,1030.0,515.2,State Road Transport Benchmark,2026-10-23
+674,Hyderabad,Kochi,train,1121,1380.0,862.8,Indian Railways Benchmark / OSRM,2026-10-23
+675,Hyderabad,Kochi,flight,191,3624.0,862.8,Civil Aviation Benchmark,2026-10-23
+676,Hyderabad,Munnar,train,1073,1321.0,825.8,Indian Railways Benchmark / OSRM,2026-10-23
+677,Hyderabad,Munnar,flight,188,3468.0,825.8,Civil Aviation Benchmark,2026-10-23
+678,Hyderabad,Alleppey,train,1179,1452.0,907.2,Indian Railways Benchmark / OSRM,2026-10-23
+679,Hyderabad,Alleppey,flight,195,3810.0,907.2,Civil Aviation Benchmark,2026-10-23
+680,Hyderabad,Mysore,train,779,960.0,599.7,Indian Railways Benchmark / OSRM,2026-10-23
+681,Hyderabad,Mysore,flight,169,2800.0,599.7,Civil Aviation Benchmark,2026-10-23
+682,Hyderabad,Mysore,bus,899,1199.0,599.7,State Road Transport Benchmark,2026-10-23
+683,Hyderabad,Hampi,train,408,503.0,314.2,Indian Railways Benchmark / OSRM,2026-10-23
+684,Hyderabad,Hampi,bus,471,628.0,314.2,State Road Transport Benchmark,2026-10-23
+685,Hyderabad,Ooty,train,899,1107.0,691.8,Indian Railways Benchmark / OSRM,2026-10-23
+686,Hyderabad,Ooty,flight,177,2906.0,691.8,Civil Aviation Benchmark,2026-10-23
+687,Hyderabad,Ooty,bus,1037,1384.0,691.8,State Road Transport Benchmark,2026-10-23
+688,Hyderabad,Madurai,train,1079,1329.0,830.4,Indian Railways Benchmark / OSRM,2026-10-23
+689,Hyderabad,Madurai,flight,189,3488.0,830.4,Civil Aviation Benchmark,2026-10-23
+690,Hyderabad,Pondicherry,train,808,995.0,621.7,Indian Railways Benchmark / OSRM,2026-10-23
+691,Hyderabad,Pondicherry,flight,171,2800.0,621.7,Civil Aviation Benchmark,2026-10-23
+692,Hyderabad,Pondicherry,bus,932,1243.0,621.7,State Road Transport Benchmark,2026-10-23
+693,Hyderabad,Coorg,train,820,1009.0,630.8,Indian Railways Benchmark / OSRM,2026-10-23
+694,Hyderabad,Coorg,flight,172,2800.0,630.8,Civil Aviation Benchmark,2026-10-23
+695,Hyderabad,Coorg,bus,946,1262.0,630.8,State Road Transport Benchmark,2026-10-23
+696,Hyderabad,Wayanad,train,887,1092.0,682.5,Indian Railways Benchmark / OSRM,2026-10-23
+697,Hyderabad,Wayanad,flight,176,2866.0,682.5,Civil Aviation Benchmark,2026-10-23
+698,Hyderabad,Wayanad,bus,1023,1365.0,682.5,State Road Transport Benchmark,2026-10-23
+699,Hyderabad,Gokarna,train,709,873.0,545.9,Indian Railways Benchmark / OSRM,2026-10-23
+700,Hyderabad,Gokarna,flight,165,2800.0,545.9,Civil Aviation Benchmark,2026-10-23
+701,Hyderabad,Gokarna,bus,818,1092.0,545.9,State Road Transport Benchmark,2026-10-23
+702,Hyderabad,Kanyakumari,train,1350,1662.0,1038.8,Indian Railways Benchmark / OSRM,2026-10-23
+703,Hyderabad,Kanyakumari,flight,206,4363.0,1038.8,Civil Aviation Benchmark,2026-10-23
+704,Hyderabad,Rameshwaram,train,1176,1448.0,904.8,Indian Railways Benchmark / OSRM,2026-10-23
+705,Hyderabad,Rameshwaram,flight,195,3800.0,904.8,Civil Aviation Benchmark,2026-10-23
+706,Hyderabad,Kolkata,train,1536,1891.0,1181.9,Indian Railways Benchmark / OSRM,2026-10-23
+707,Hyderabad,Kolkata,flight,218,4964.0,1181.9,Civil Aviation Benchmark,2026-10-23
+708,Hyderabad,Darjeeling,train,1911,2353.0,1470.5,Indian Railways Benchmark / OSRM,2026-10-23
+709,Hyderabad,Darjeeling,flight,242,6176.0,1470.5,Civil Aviation Benchmark,2026-10-23
+710,Hyderabad,Puri,train,1065,1311.0,819.6,Indian Railways Benchmark / OSRM,2026-10-23
+711,Hyderabad,Puri,flight,188,3442.0,819.6,Civil Aviation Benchmark,2026-10-23
+712,Hyderabad,Bhubaneswar,train,1088,1340.0,837.2,Indian Railways Benchmark / OSRM,2026-10-23
+713,Hyderabad,Bhubaneswar,flight,189,3516.0,837.2,Civil Aviation Benchmark,2026-10-23
+714,Hyderabad,Bodh Gaya,train,1372,1689.0,1055.9,Indian Railways Benchmark / OSRM,2026-10-23
+715,Hyderabad,Bodh Gaya,flight,207,4435.0,1055.9,Civil Aviation Benchmark,2026-10-23
+716,Hyderabad,Khajuraho,train,1093,1346.0,841.3,Indian Railways Benchmark / OSRM,2026-10-23
+717,Hyderabad,Khajuraho,flight,190,3533.0,841.3,Civil Aviation Benchmark,2026-10-23
+718,Hyderabad,Bhopal,train,861,1060.0,662.8,Indian Railways Benchmark / OSRM,2026-10-23
+719,Hyderabad,Bhopal,flight,175,2800.0,662.8,Civil Aviation Benchmark,2026-10-23
+720,Hyderabad,Bhopal,bus,994,1326.0,662.8,State Road Transport Benchmark,2026-10-23
+721,Hyderabad,Gwalior,train,1277,1572.0,982.7,Indian Railways Benchmark / OSRM,2026-10-23
+722,Hyderabad,Gwalior,flight,201,4127.0,982.7,Civil Aviation Benchmark,2026-10-23
+723,Hyderabad,Pachmarhi,train,734,904.0,565.2,Indian Railways Benchmark / OSRM,2026-10-23
+724,Hyderabad,Pachmarhi,flight,167,2800.0,565.2,Civil Aviation Benchmark,2026-10-23
+725,Hyderabad,Pachmarhi,bus,847,1130.0,565.2,State Road Transport Benchmark,2026-10-23
+726,Hyderabad,Shillong,train,2155,2652.0,1657.8,Indian Railways Benchmark / OSRM,2026-10-23
+727,Hyderabad,Shillong,flight,258,6963.0,1657.8,Civil Aviation Benchmark,2026-10-23
+728,Hyderabad,Guwahati,train,2180,2684.0,1677.6,Indian Railways Benchmark / OSRM,2026-10-23
+729,Hyderabad,Guwahati,flight,259,7046.0,1677.6,Civil Aviation Benchmark,2026-10-23
+730,Hyderabad,Kaziranga,train,2371,2919.0,1824.4,Indian Railways Benchmark / OSRM,2026-10-23
+731,Hyderabad,Kaziranga,flight,272,7662.0,1824.4,Civil Aviation Benchmark,2026-10-23
+732,Hyderabad,Gangtok,train,1973,2428.0,1517.7,Indian Railways Benchmark / OSRM,2026-10-23
+733,Hyderabad,Gangtok,flight,246,6374.0,1517.7,Civil Aviation Benchmark,2026-10-23
+734,Hyderabad,Cherrapunji,train,2116,2605.0,1628.1,Indian Railways Benchmark / OSRM,2026-10-23
+735,Hyderabad,Cherrapunji,flight,255,6838.0,1628.1,Civil Aviation Benchmark,2026-10-23

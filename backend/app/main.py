@@ -3,7 +3,7 @@ import sys
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request, status
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, Response
 from fastapi.exceptions import RequestValidationError
 
 # Ensure paths
@@ -20,24 +20,30 @@ from app.api.v1.api import api_router
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: Ensure database schema is ready
-    print(f"[{settings.PROJECT_NAME}] Initializing database tables...")
-    Base.metadata.create_all(bind=engine)
-    
-    # Auto-seed if database is empty
-    from app.database.session import SessionLocal
-    from app.models.destination import Destination
-    db = SessionLocal()
+    # Startup: Ensure database schema is ready safely
     try:
-        count = db.query(Destination).count()
-        if count == 0:
-            print(f"[{settings.PROJECT_NAME}] Database empty, launching automated dataset seeder...")
-            from scripts.seed_database import seed_database
-            seed_database()
-        else:
-            print(f"[{settings.PROJECT_NAME}] Database operational with {count} destinations.")
-    finally:
-        db.close()
+        print(f"[{settings.PROJECT_NAME}] Initializing database tables on {engine.url}...")
+        Base.metadata.create_all(bind=engine)
+        
+        # Check if database needs seeding
+        from app.database.session import SessionLocal
+        from app.models.destination import Destination
+        db = SessionLocal()
+        try:
+            count = db.query(Destination).count()
+            if count == 0:
+                print(f"[{settings.PROJECT_NAME}] Database empty, launching automated seeder...")
+                try:
+                    from app.database.seeder import seed_database
+                    seed_database()
+                except Exception as se:
+                    print(f"[{settings.PROJECT_NAME}] Seeder encountered error: {se}")
+            else:
+                print(f"[{settings.PROJECT_NAME}] Database operational with {count} destinations.")
+        finally:
+            db.close()
+    except Exception as e:
+        print(f"[{settings.PROJECT_NAME}] Database lifespan initialization warning: {e}")
     
     yield
     print(f"[{settings.PROJECT_NAME}] Shutting down.")
@@ -60,6 +66,23 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Root index route
+@app.get("/", tags=["System"])
+def root_index():
+    return {
+        "status": "online",
+        "service": settings.PROJECT_NAME,
+        "message": "SmartVoyage AI Backend is running.",
+        "documentation": "/docs",
+        "health": "/health",
+        "api_v1": settings.API_V1_PREFIX
+    }
+
+# Favicon handler to prevent 500/404 browser errors
+@app.get("/favicon.ico", include_in_schema=False)
+def favicon():
+    return Response(status_code=204)
 
 # Include API v1 Router
 app.include_router(api_router, prefix=settings.API_V1_PREFIX)

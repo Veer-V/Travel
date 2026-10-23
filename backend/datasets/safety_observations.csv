@@ -1,0 +1,113 @@
+observation_id,location_id,observation_date,geographic_area,incident_category,incident_count,population_or_exposure_denominator_when_available,weather_hazard,infrastructure_indicators,official_advisory_level,data_source,data_quality_flag,last_updated
+1,1,2026-10-23,Delhi Central District & Tourist Hub,petty_theft,45,2500000,heatwave,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+2,1,2026-10-23,Delhi Regional Environs,environmental,1,2500000,heatwave,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+3,2,2026-10-23,Agra Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+4,2,2026-10-23,Agra Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+5,3,2026-10-23,Jaipur Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+6,3,2026-10-23,Jaipur Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+7,4,2026-10-23,Udaipur Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+8,4,2026-10-23,Udaipur Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+9,5,2026-10-23,Jodhpur Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+10,5,2026-10-23,Jodhpur Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+11,6,2026-10-23,Varanasi Central District & Tourist Hub,petty_theft,18,1200000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+12,6,2026-10-23,Varanasi Regional Environs,environmental,0,1200000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+13,7,2026-10-23,Amritsar Central District & Tourist Hub,petty_theft,18,1200000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+14,7,2026-10-23,Amritsar Regional Environs,environmental,0,1200000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+15,8,2026-10-23,Rishikesh Central District & Tourist Hub,petty_theft,4,180000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+16,8,2026-10-23,Rishikesh Regional Environs,environmental,0,180000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+17,9,2026-10-23,Shimla Central District & Tourist Hub,petty_theft,4,180000,landslide,"well_lit, tourist_police_available, medical_access",exercise_caution,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+18,9,2026-10-23,Shimla Regional Environs,environmental,1,180000,landslide,weather_warning_systems_active,exercise_caution,India Meteorological Department (IMD),verified,2026-10-23
+19,10,2026-10-23,Manali Central District & Tourist Hub,petty_theft,4,180000,landslide,"well_lit, tourist_police_available, medical_access",exercise_caution,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+20,10,2026-10-23,Manali Regional Environs,environmental,1,180000,landslide,weather_warning_systems_active,exercise_caution,India Meteorological Department (IMD),verified,2026-10-23
+21,11,2026-10-23,Leh-Ladakh Central District & Tourist Hub,petty_theft,4,180000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+22,11,2026-10-23,Leh-Ladakh Regional Environs,environmental,0,180000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+23,12,2026-10-23,Srinagar Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+24,12,2026-10-23,Srinagar Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+25,13,2026-10-23,Haridwar Central District & Tourist Hub,petty_theft,18,1200000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+26,13,2026-10-23,Haridwar Regional Environs,environmental,0,1200000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+27,14,2026-10-23,Dharamshala Central District & Tourist Hub,petty_theft,18,1200000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+28,14,2026-10-23,Dharamshala Regional Environs,environmental,0,1200000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+29,15,2026-10-23,Nainital Central District & Tourist Hub,petty_theft,4,180000,landslide,"well_lit, tourist_police_available, medical_access",exercise_caution,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+30,15,2026-10-23,Nainital Regional Environs,environmental,1,180000,landslide,weather_warning_systems_active,exercise_caution,India Meteorological Department (IMD),verified,2026-10-23
+31,16,2026-10-23,Mussoorie Central District & Tourist Hub,petty_theft,4,180000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+32,16,2026-10-23,Mussoorie Regional Environs,environmental,0,180000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+33,17,2026-10-23,Mumbai Central District & Tourist Hub,petty_theft,45,2500000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+34,17,2026-10-23,Mumbai Regional Environs,environmental,0,2500000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+35,18,2026-10-23,Goa Central District & Tourist Hub,petty_theft,12,500000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+36,18,2026-10-23,Goa Regional Environs,environmental,0,500000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+37,19,2026-10-23,Pune Central District & Tourist Hub,petty_theft,45,2500000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+38,19,2026-10-23,Pune Regional Environs,environmental,0,2500000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+39,20,2026-10-23,Ahmedabad Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+40,20,2026-10-23,Ahmedabad Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+41,21,2026-10-23,Kutch Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+42,21,2026-10-23,Kutch Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+43,22,2026-10-23,Mount Abu Central District & Tourist Hub,petty_theft,4,180000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+44,22,2026-10-23,Mount Abu Regional Environs,environmental,0,180000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+45,23,2026-10-23,Mahabaleshwar Central District & Tourist Hub,petty_theft,4,180000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+46,23,2026-10-23,Mahabaleshwar Regional Environs,environmental,0,180000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+47,24,2026-10-23,Lonavala Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+48,24,2026-10-23,Lonavala Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+49,25,2026-10-23,Aurangabad Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+50,25,2026-10-23,Aurangabad Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+51,26,2026-10-23,Alibaug Central District & Tourist Hub,petty_theft,12,500000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+52,26,2026-10-23,Alibaug Regional Environs,environmental,0,500000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+53,27,2026-10-23,Bengaluru Central District & Tourist Hub,petty_theft,45,2500000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+54,27,2026-10-23,Bengaluru Regional Environs,environmental,0,2500000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+55,28,2026-10-23,Chennai Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+56,28,2026-10-23,Chennai Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+57,29,2026-10-23,Hyderabad Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+58,29,2026-10-23,Hyderabad Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+59,30,2026-10-23,Kochi Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+60,30,2026-10-23,Kochi Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+61,31,2026-10-23,Munnar Central District & Tourist Hub,petty_theft,4,180000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+62,31,2026-10-23,Munnar Regional Environs,environmental,0,180000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+63,32,2026-10-23,Alleppey Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+64,32,2026-10-23,Alleppey Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+65,33,2026-10-23,Mysore Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+66,33,2026-10-23,Mysore Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+67,34,2026-10-23,Hampi Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+68,34,2026-10-23,Hampi Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+69,35,2026-10-23,Ooty Central District & Tourist Hub,petty_theft,4,180000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+70,35,2026-10-23,Ooty Regional Environs,environmental,0,180000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+71,36,2026-10-23,Madurai Central District & Tourist Hub,petty_theft,18,1200000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+72,36,2026-10-23,Madurai Regional Environs,environmental,0,1200000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+73,37,2026-10-23,Pondicherry Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+74,37,2026-10-23,Pondicherry Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+75,38,2026-10-23,Coorg Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+76,38,2026-10-23,Coorg Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+77,39,2026-10-23,Wayanad Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+78,39,2026-10-23,Wayanad Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+79,40,2026-10-23,Gokarna Central District & Tourist Hub,petty_theft,12,500000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+80,40,2026-10-23,Gokarna Regional Environs,environmental,0,500000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+81,41,2026-10-23,Kanyakumari Central District & Tourist Hub,petty_theft,18,1200000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+82,41,2026-10-23,Kanyakumari Regional Environs,environmental,0,1200000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+83,42,2026-10-23,Rameshwaram Central District & Tourist Hub,petty_theft,18,1200000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+84,42,2026-10-23,Rameshwaram Regional Environs,environmental,0,1200000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+85,43,2026-10-23,Kolkata Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+86,43,2026-10-23,Kolkata Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+87,44,2026-10-23,Darjeeling Central District & Tourist Hub,petty_theft,4,180000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+88,44,2026-10-23,Darjeeling Regional Environs,environmental,0,180000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+89,45,2026-10-23,Puri Central District & Tourist Hub,petty_theft,18,1200000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+90,45,2026-10-23,Puri Regional Environs,environmental,0,1200000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+91,46,2026-10-23,Bhubaneswar Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+92,46,2026-10-23,Bhubaneswar Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+93,47,2026-10-23,Bodh Gaya Central District & Tourist Hub,petty_theft,18,1200000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+94,47,2026-10-23,Bodh Gaya Regional Environs,environmental,0,1200000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+95,48,2026-10-23,Khajuraho Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+96,48,2026-10-23,Khajuraho Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+97,49,2026-10-23,Bhopal Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+98,49,2026-10-23,Bhopal Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+99,50,2026-10-23,Gwalior Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+100,50,2026-10-23,Gwalior Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+101,51,2026-10-23,Pachmarhi Central District & Tourist Hub,petty_theft,4,180000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+102,51,2026-10-23,Pachmarhi Regional Environs,environmental,0,180000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+103,52,2026-10-23,Shillong Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+104,52,2026-10-23,Shillong Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+105,53,2026-10-23,Guwahati Central District & Tourist Hub,petty_theft,18,1200000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+106,53,2026-10-23,Guwahati Regional Environs,environmental,0,1200000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+107,54,2026-10-23,Kaziranga Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+108,54,2026-10-23,Kaziranga Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+109,55,2026-10-23,Gangtok Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+110,55,2026-10-23,Gangtok Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
+111,56,2026-10-23,Cherrapunji Central District & Tourist Hub,petty_theft,8,400000,none,"well_lit, tourist_police_available, medical_access",normal,NCRB Public Statistics / IMD Bulletins / Tourism Registry,verified,2026-10-23
+112,56,2026-10-23,Cherrapunji Regional Environs,environmental,0,400000,none,weather_warning_systems_active,normal,India Meteorological Department (IMD),verified,2026-10-23
