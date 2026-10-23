@@ -1,9 +1,14 @@
 import os
 from typing import Dict, Any, List, Optional
 import pandas as pd
-from ml.src.train_recommender import TravelRecommender
-from ml.src.train_safety_model import SafetyRiskModel
-from ml.src.train_cost_model import TripBudgetEstimator
+try:
+    from ml.src.train_recommender import TravelRecommender
+    from ml.src.train_safety_model import SafetyRiskModel
+    from ml.src.train_cost_model import TripBudgetEstimator
+except ModuleNotFoundError:
+    from src.train_recommender import TravelRecommender
+    from src.train_safety_model import SafetyRiskModel
+    from src.train_cost_model import TripBudgetEstimator
 
 class MLInferenceSuite:
     _instance = None
@@ -109,7 +114,18 @@ class MLInferenceSuite:
 # Factory instance getter
 def get_ml_suite() -> MLInferenceSuite:
     global _ml_suite
-    base = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-    models_dir = os.path.join(base, "ml", "models")
-    datasets_dir = os.path.join(base, "datasets", "sample")
+    src_dir = os.path.dirname(os.path.abspath(__file__))
+    ml_root = os.path.abspath(os.path.join(src_dir, ".."))
+    repo_root = os.path.abspath(os.path.join(ml_root, ".."))
+
+    # Resolve models dir
+    models_dir = os.path.join(ml_root, "models")
+    if not os.path.exists(models_dir):
+        models_dir = os.path.join(repo_root, "ml", "models")
+
+    # Resolve datasets dir
+    datasets_dir = os.path.join(ml_root, "datasets")
+    if not os.path.exists(datasets_dir):
+        datasets_dir = os.path.join(repo_root, "datasets", "sample")
+
     return MLInferenceSuite(models_dir, datasets_dir)

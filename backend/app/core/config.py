@@ -30,6 +30,9 @@ class Settings(BaseSettings):
     OPEN_METEO_API_URL: str = "https://api.open-meteo.com/v1"
     OSRM_ROUTING_URL: str = "https://router.project-osrm.org"
     
+    # Internal Service Bindings (e.g. Vercel Services)
+    ML_SERVICE_URL: Optional[str] = os.environ.get("ML_SERVICE_URL")
+
     # Data & ML model paths
     BASE_DIR: str = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
     DATASET_DIR: str = os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..")), "datasets", "sample")

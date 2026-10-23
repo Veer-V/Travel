@@ -2,7 +2,12 @@ from typing import Dict, Any, Optional
 from sqlalchemy.orm import Session
 from app.models.safety import SafetyObservation, OfficialAdvisory
 from app.models.destination import Destination
-from ml.src.predict import get_ml_suite
+from app.core.config import settings
+
+try:
+    from ml.src.predict import get_ml_suite
+except Exception:
+    get_ml_suite = None
 
 class SafetyService:
     def __init__(self):
@@ -10,8 +15,11 @@ class SafetyService:
 
     @property
     def ml(self):
-        if self._ml is None:
-            self._ml = get_ml_suite()
+        if self._ml is None and get_ml_suite is not None:
+            try:
+                self._ml = get_ml_suite()
+            except Exception:
+                self._ml = None
         return self._ml
 
     def assess_destination_safety(self, db: Session, destination_id: int) -> Dict[str, Any]:
@@ -34,15 +42,35 @@ class SafetyService:
         # Check official advisory first
         official_advisory = db.query(OfficialAdvisory).filter(OfficialAdvisory.destination_id == destination_id).first()
 
-        # Run ML safety model
-        if self.ml:
+        assessment = None
+
+        # 1. Check if remote ML service binding is configured (Vercel Services)
+        if settings.ML_SERVICE_URL:
+            try:
+                import httpx
+                resp = httpx.post(
+                    f"{settings.ML_SERVICE_URL.rstrip('/')}/safety/assess",
+                    json={"destination_id": destination_id},
+                    timeout=5.0
+                )
+                if resp.status_code == 200:
+                    assessment = resp.json()
+            except Exception as e:
+                print(f"[SafetyService] Remote ML service call failed: {e}. Falling back to local.")
+
+        # 2. Run local ML safety model if remote was not used or failed
+        if assessment is None and self.ml:
             assessment = self.ml.assess_safety(destination_id)
+
+        # 3. Apply official advisory override if present
+        if assessment is not None:
             if official_advisory:
                 assessment["official_advisory_status"] = official_advisory.advisory_level.title()
-                assessment["explanation"].insert(0, f"Official Advisory: {official_advisory.advisory_text}")
+                if "explanation" in assessment and isinstance(assessment["explanation"], list):
+                    assessment["explanation"].insert(0, f"Official Advisory: {official_advisory.advisory_text}")
             return assessment
 
-        # Fallback if ML not loaded
+        # 4. Fallback if ML not loaded
         return {
             "overall_risk_category": "Lower observed risk",
             "crime_risk_indicator": "Low observed frequency",
