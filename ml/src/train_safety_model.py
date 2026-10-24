@@ -151,13 +151,23 @@ class SafetyRiskModel:
             "is_hill_station": is_hill
         }])
 
+        pred_class = "Moderate observed risk" if (has_hazard or rate_100k >= 2.0) else "Lower observed risk"
+        max_prob = 0.85
+
         if self.model is not None:
-            pred_class = self.model.predict(feature_vector)[0]
-            pred_probs = self.model.predict_proba(feature_vector)[0]
-            max_prob = float(np.max(pred_probs))
-        else:
-            pred_class = "Moderate observed risk" if has_hazard else "Lower observed risk"
-            max_prob = 0.85
+            try:
+                pred_class = str(self.model.predict(feature_vector)[0])
+                pred_probs = self.model.predict_proba(feature_vector)[0]
+                max_prob = float(np.max(pred_probs))
+            except Exception as pe:
+                print(f"[SafetyRiskModel] Inference fallback due to: {pe}")
+                if rate_100k > 3.0 or weather_hazard != "none":
+                    pred_class = "Elevated observed risk"
+                elif rate_100k >= 1.5:
+                    pred_class = "Moderate observed risk"
+                else:
+                    pred_class = "Lower observed risk"
+                max_prob = 0.85
 
         # Override for active official warning
         if official_level in ["avoid_all", "avoid_non_essential"]:

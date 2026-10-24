@@ -60,7 +60,11 @@ class SafetyService:
 
         # 2. Run local ML safety model if remote was not used or failed
         if assessment is None and self.ml:
-            assessment = self.ml.assess_safety(destination_id)
+            try:
+                assessment = self.ml.assess_safety(destination_id)
+            except Exception as se:
+                print(f"[SafetyService] Local ML assessment exception: {se}")
+                assessment = None
 
         # 3. Apply official advisory override if present
         if assessment is not None:
