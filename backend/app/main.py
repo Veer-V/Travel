@@ -3,7 +3,8 @@ import sys
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request, status
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse, Response
+from fastapi.responses import JSONResponse, Response, FileResponse
+from fastapi.staticfiles import StaticFiles
 from fastapi.exceptions import RequestValidationError
 
 # Ensure paths
@@ -67,26 +68,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Root index route
-@app.get("/", tags=["System"])
-def root_index():
-    return {
-        "status": "online",
-        "service": settings.PROJECT_NAME,
-        "message": "SmartVoyage AI Backend is running.",
-        "documentation": "/docs",
-        "health": "/health",
-        "api_v1": settings.API_V1_PREFIX
-    }
-
 # Favicon handler to prevent 500/404 browser errors
 @app.get("/favicon.ico", include_in_schema=False)
 def favicon():
     return Response(status_code=204)
 
-# Include API v1 Router
-app.include_router(api_router, prefix=settings.API_V1_PREFIX)
-
+# Health endpoint
 @app.get("/health", tags=["System"])
 def root_health():
     return {
@@ -96,6 +83,43 @@ def root_health():
         "version": "1.0.0",
         "api_v1_docs": "/docs"
     }
+
+# Include API v1 Router
+app.include_router(api_router, prefix=settings.API_V1_PREFIX)
+
+# Static frontend mounting (compiled React Native Web single page app)
+DIST_DIR = os.path.join(BACKEND_DIR, "dist")
+if not os.path.exists(DIST_DIR):
+    DIST_DIR = os.path.join(ROOT_DIR, "mobile", "dist")
+
+if os.path.exists(DIST_DIR) and os.path.exists(os.path.join(DIST_DIR, "index.html")):
+    expo_dir = os.path.join(DIST_DIR, "_expo")
+    if os.path.exists(expo_dir):
+        app.mount("/_expo", StaticFiles(directory=expo_dir), name="expo-static")
+    
+    @app.get("/", include_in_schema=False)
+    def serve_frontend_root():
+        return FileResponse(os.path.join(DIST_DIR, "index.html"))
+
+    @app.get("/api/v1/info", tags=["System"])
+    def api_info():
+        return {
+            "status": "online",
+            "service": settings.PROJECT_NAME,
+            "docs": "/docs",
+            "health": "/health"
+        }
+else:
+    @app.get("/", tags=["System"])
+    def root_index():
+        return {
+            "status": "online",
+            "service": settings.PROJECT_NAME,
+            "message": "SmartVoyage AI Backend is running.",
+            "documentation": "/docs",
+            "health": "/health",
+            "api_v1": settings.API_V1_PREFIX
+        }
 
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
