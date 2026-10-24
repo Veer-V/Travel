@@ -96,10 +96,14 @@ if os.path.exists(DIST_DIR) and os.path.exists(os.path.join(DIST_DIR, "index.htm
     expo_dir = os.path.join(DIST_DIR, "_expo")
     if os.path.exists(expo_dir):
         app.mount("/_expo", StaticFiles(directory=expo_dir), name="expo-static")
-    
-    @app.get("/", include_in_schema=False)
-    def serve_frontend_root():
-        return FileResponse(os.path.join(DIST_DIR, "index.html"))
+
+    assets_dir = os.path.join(DIST_DIR, "assets")
+    if os.path.exists(assets_dir):
+        app.mount("/assets", StaticFiles(directory=assets_dir), name="assets-static")
+
+    fonts_dir = os.path.join(DIST_DIR, "fonts")
+    if os.path.exists(fonts_dir):
+        app.mount("/fonts", StaticFiles(directory=fonts_dir), name="fonts-static")
 
     @app.get("/api/v1/info", tags=["System"])
     def api_info():
@@ -109,6 +113,20 @@ if os.path.exists(DIST_DIR) and os.path.exists(os.path.join(DIST_DIR, "index.htm
             "docs": "/docs",
             "health": "/health"
         }
+
+    @app.get("/", include_in_schema=False)
+    def serve_frontend_root():
+        return FileResponse(os.path.join(DIST_DIR, "index.html"))
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    def serve_frontend_spa(full_path: str):
+        target = os.path.join(DIST_DIR, full_path)
+        if os.path.isfile(target):
+            return FileResponse(target)
+        index_file = os.path.join(DIST_DIR, "index.html")
+        if os.path.isfile(index_file):
+            return FileResponse(index_file)
+        return JSONResponse(status_code=404, content={"detail": "Not Found"})
 else:
     @app.get("/", tags=["System"])
     def root_index():

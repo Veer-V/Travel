@@ -10,6 +10,11 @@ def _get_default_database_url() -> str:
     # Vercel serverless filesystem is read-only except /tmp
     if os.environ.get("VERCEL"):
         return "sqlite:////tmp/smartvoyage.db"
+    
+    root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+    root_db = os.path.join(root_dir, "smartvoyage.db")
+    if os.path.exists(root_db):
+        return f"sqlite:///{root_db.replace(chr(92), '/')}"
     return "sqlite:///./smartvoyage.db"
 
 def _get_default_dataset_dir() -> str:
