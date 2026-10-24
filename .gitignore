@@ -30,6 +30,8 @@ htmlcov/
 node_modules/
 .expo/
 dist/
+!backend/dist/
+!backend/dist/**
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
